@@ -1,0 +1,63 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: rgb(78,68,58);
+}
+
+.h1 {
+  font-family: var(--font-lobster);
+  padding: 10px;
+  display: flex;
+  font-weight: 400;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background-color: rgb(78,68,58);
+}
+  
+.column {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 16px;
+  line-height: 1.7em;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+}
+
+.buttonContainer {
+  width: 100%;;
+  display: flex;
+  justify-content: center;
+}
+  
+.toggleButton {
+  width: 150px;
+  border: 1px solid rgb(35,40,71);
+  border-radius: 20px;;
+  padding: 8px;
+  margin: 20px 0 50px 0;
+  font-family: var(--font-lobster);
+  font-size: 1em;
+  background-color: rgb(35,40,71);
+}
+
+.section {
+  background-color: white;
+}
+
+.line {
+  width: 100%;
+  height: 50px;
+   background-color: rgb(35,40,71);
+}
+
+.p {
+  color: rgb(78,68,58);
+  background-color: white;;
+  padding: 16px;
+  text-align: center;
+}

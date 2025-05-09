@@ -1,0 +1,36 @@
+.container {
+    color: black;
+    font-weight: 400;
+    background-color: aliceblue;
+}
+
+.title {
+    color: white;
+    padding: 12px;
+    text-align: center;
+    font-weight: 400;
+    background-color: rgb(78,68,58);
+}
+
+.h2 {
+    padding: 12px;
+    font-weight: 400;
+    text-decoration: underline;
+    color : rgb(156,182,45);
+}
+
+.p {
+    font-weight: 400;
+    padding: 12px;
+}
+
+.ul {
+    padding: 12px;
+    list-style: none;
+}
+
+.li {
+    color: rgb(82,113,255);
+    padding: 8px;
+    margin-left: 6px;
+}

@@ -1,0 +1,57 @@
+/* menu.module.css */
+.section {
+    color: black;
+    background-color: white;
+}
+
+.title {
+  color: black;
+  font-size: 1.5rem;
+  padding: 10px;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+  text-align: center;
+background-color: rgb(78,68,58);  
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.menuItem {
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.itemHeader {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 400;
+}
+
+.itemName {
+  font-size: 1.1rem;
+}
+
+.itemPrice {
+  font-size: 1rem;
+  color: rgb(156,182,45)
+}
+
+.itemDescription {
+  margin-top: 8px;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.label {
+  color: #000000; /* rouge foncé par exemple, modifiable */
+  font-weight: 400;
+  margin: 0 8px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  
+}

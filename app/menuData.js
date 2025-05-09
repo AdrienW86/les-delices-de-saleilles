@@ -1,0 +1,301 @@
+const menuData = {
+  boissons: {
+    nonAlcoolisees: [
+      {
+        name: "Badoit, Vittel, Perrier 50cl",
+        size: "50cl",
+        price: 4.50,
+      },
+      {
+        name: "Badoit, Vittel, Perrier 100cl",
+        size: "100cl",
+        price: 6,
+      },
+      {
+        name: "Nestea",
+        price: 4,
+      },
+      {
+        name: "Coca-Cola",
+        price: 4,
+      },
+      {
+        name: "Schweppes",
+        price: 4,
+      },
+      {
+        name: "Jus d'orange",
+        price: 4,
+      },
+    ],
+    chaudes: [
+      {
+        name: "Petit café",
+        price: 2,
+      },
+      {
+        name: "Chocolat / Thé / Cappuccino",
+        price: 4,
+      },
+      {
+        name: "Petit café crème",
+        price: 2.20,
+      },
+      {
+        name: "Grand café",
+        price: 3.80,
+      },
+      {
+        name: "Grand café",
+        price: 4,
+      },
+    ],
+    aperitifs: [
+      {
+        name: "Ricard / Pastis 3cl",
+        price: 4,
+      },
+      {
+        name: "Picon 4cl plus bière",
+        price: 8,
+      },
+      {
+        name: "Martini / Porto 5cl",
+        price: 5,
+      },
+      {
+        name: "Kir mûr / cassis",
+        price: 5,
+      },
+      {
+        name: "Rhum arrangé",
+        price: 9,
+      },
+      {
+        name: "Whisky Cardhu 4cl",
+        price: 9,
+      },
+      {
+        name: "Nika pur malt",
+        price: 10,
+      },
+      {
+        name: "Whisky 4cl",
+        price: 7,
+      },
+    ],
+    bierePression: [
+      {
+        name: "Mil.lenari 25cl",
+        size: "25cl",
+        price: 4,
+      },
+      {
+        name: "Mil.lenari 33cl",
+        size: "33cl",
+        price: 6.90,
+      },
+      {
+        name: "Mil.lenari 50cl",
+        size: "50cl",
+        price: 7.50,
+      },
+      {
+        name: "Affligem 25cl",
+        size: "25cl",
+        price: 4.90,
+      },
+      {
+        name: "Affligem 50cl",
+        size: "33cl",
+        price: 7.80,
+      },
+      {
+        name: "Affligem 50cl",
+        size: "50cl",
+        price: 9,
+      },
+    ],
+    biereBouteilles: [
+      {
+        name: "Chimay",
+        price: 8,
+      },
+      {
+        name: "Karmeliet 33cl",
+        price: 8,
+      },
+      {
+        name: "Duvel 33cl",
+        price: 8,
+      },
+    ],
+    vin: [
+      {
+        name: "Verre rosé (cubi)",
+        price: 4,
+      },
+      {
+        name: "Verre blanc (cubi)",
+        price: 4,
+      },
+      {
+        name: "Verre rouge (cubi)",
+        price: 4,
+      },
+      {
+        name: "Rouge / rosé 25cl (cubi)",
+        price: 6,
+      },
+       {
+        name: "Rouge / rosé 50cl (cubi)",
+        price: 9,
+      },
+      {
+        name: "Bouteille riere cadene",
+        price: 20,
+      },     
+      {
+        name: "Les doms brial. Rouge, rosé ou blanc",
+        price: 27,
+      },
+      {
+        name: "Les collioures: blanc clos et sébastien",
+        price: 39,
+      },
+      {
+        name: "Les clos de paulilles. Rouge et rosé",
+        price: 30,
+      },
+      {
+        name: "La masia sainte thérèse rouge",
+        price: 32,
+      },
+    ],
+  },
+  entrees: [
+    {
+      name: "Pan con tomate",
+      description: "Jambon Serrano, salade tomates et oignons",
+      price: { normal: 10, xl: 16 },
+    },
+    {
+      name: "Samoussa au poulet",
+      description: "Salade verte, tomates oignons rouges",
+      price: { normal: 10, xl: 16 },
+    },
+    {
+      name: "Croustillant de chèvre",
+      description: "Fromage de chèvre, sauce pesto",
+      price: { normal: 13, xl: 16 },
+    },
+    {
+      name: "Nems du chef",
+      description: "Avec salade verte, tomates et oignons rouges",
+      price: { normal: 13, xl: 18 },
+    },
+    {
+      name: "Carpaccio du chef",
+      description: "Carpaccio de boeuf, salade verte, parmesan, croustillant chèvre",
+      price: { normal: 18, xl: 20 },
+    },
+  ],
+  viandes: [
+    {
+      name: "Magret de canard entier",
+      description: "Sauce de la cheffe au miel et à l'orange",
+      price: 28,
+    },
+    {
+      name: "Tartare de boeuf revisité(persillé Angus)",
+      description: "Fait au couteau (spécialité de la cheffe)mangue, boeuf, échalotee, herbes aromatiques, soja, sauce huître",
+      price: 26,
+    },
+    {
+      name: "Boeuf (persillé Angus)",
+      description: "",
+      price: 25,
+    },
+    {
+      name: "Porc caramel (3h de cuisson)",
+      description: "",
+      price: 22,
+    },
+    {
+      name: "Hamburger de la cheffe",
+      description: "",
+      price: 18,
+    },
+    {
+      name: "Rumsteak de boeuf",
+      description: "",
+      price: 18,
+    },
+  ],
+  mer: [
+    {
+      name: "Steak de thon grillé (160 - 180gr)",
+      description: "",
+      price: 28,
+    },
+    {
+      name: "Gambas à l'ail et au persil (16 / 20)",
+      description: "",
+      price: 22,
+    },
+    {
+      name: "Filet de poisson du jour sauce de la cheffe",
+      description: "",
+      price: 20,
+    },
+  ],
+  platsChinois: [
+    {
+      name: "Nouilles de riz sautées au boeuf",
+      description: "",
+      price: 23,
+    },
+    {
+      name: "Sauté de porc aux poivrons",
+      description: "",
+      price: 23,
+    },
+    {
+      name: "Crevettes aux noix de cajou",
+      description: "",
+      price: 25,
+    },
+    {
+      name: "Cuisses de grenouilles sauce soja",
+      description: "",
+      price: 25,
+    },
+  ],
+  desserts: [
+    {
+      name: "Crème catalane",
+      price: 6,
+    },
+    {
+      name: "Baba au rhum",
+      price: 8,
+    },
+    {
+      name: "Fondant au chocolat",
+      description: "Glace vanille, caramel et chantilly maison",
+      price: 10,
+    },
+    {
+      name: "Tarte aux pommes",
+      description: "Glace vanille, caramel et chantilly maison",
+      price: 10,
+    },
+    {
+      name: "Carpaccio d'ananas",
+      description: "Ananas, glace vanille, caramel et chantilly maison",
+      price: 10,
+    },
+  ],
+};
+
+export default menuData;
