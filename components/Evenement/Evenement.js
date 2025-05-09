@@ -5,7 +5,7 @@ import styles from './evenement.module.css'
 export default function Evenement() {
    return (
     <section className={styles.container}>
-        <h1 className={styles.title}>Nos Soirées à thèmes</h1>
+        <h1 className={styles.title}>Nos Soirées à thème</h1>
           <section className={styles.boxCard}>
             <div className={styles.box}>     
                 <Image 
@@ -37,7 +37,7 @@ export default function Evenement() {
                     className={styles.picture}
                 />
                 <div className={styles.p}>
-                     <h2 className={styles.h2}> Soirées à thèmes</h2>
+                     <h2 className={styles.h2}> Soirées à thème</h2>
                         <p>
                             🎉 Soirées à Thèmes – Une ambiance différente à chaque fois !
                             Voyagez le temps d'une soirée avec nos soirées à thèmes !
