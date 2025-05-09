@@ -14,6 +14,7 @@ const images = [
   '/image6.avif',
   '/image7.avif',
   '/image8.avif',
+  '/image9.avif',
 ];
 
 export default function Carousel() {
@@ -33,7 +34,7 @@ export default function Carousel() {
   return (
     <div className={styles.carousel} id="carouselExampleFade">
       <div className={styles.event}>
-        <p> Venez Découvrir nos soirées karaoké </p>
+        <a href="/event#karaoke"> Venez Découvrir nos soirées karaoké </a>
       </div>
        <a href="tel:0650729588" className={styles.callButton}>
         📞 Réserver au 06 50 72 95 88
@@ -41,7 +42,7 @@ export default function Carousel() {
         <div className={styles.btnContainer}>
             <motion.a 
               className={styles.btn} 
-              href="/contact"
+              href="/#menu"
               ref={ref1}  
               initial={{ opacity: 0, x: -50 }} 
               animate={{
@@ -55,7 +56,7 @@ export default function Carousel() {
             </motion.a>
             <motion.a 
               className={styles.btn2} 
-              href="/pictures"
+              href="/#suggestion"
               ref={ref2}  
               initial={{ opacity: 0, x: 50 }} 
               animate={{

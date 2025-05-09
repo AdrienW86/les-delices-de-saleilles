@@ -1,0 +1,120 @@
+.container {
+    background-color: white;
+}
+
+.boxCard {
+   display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+
+.box {
+    z-index: 2;
+    width: 300px;
+    margin: 40px;
+}
+
+.title {
+    color: white;
+    padding: 12px;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 50px;
+    background-color: rgb(78,68,58);
+}
+
+.h2 {
+   color: rgb(156,182,45)
+}
+
+.span {
+    position: relative;
+    bottom: 10px;
+    text-decoration: underline;
+    font-size: 20px;
+    color: rgb(156,182,45)
+}
+
+.h2 {
+    z-index: 2;
+    padding: 8px;
+    font-weight: 400;
+    text-align: center;
+    color: white; 
+}
+
+.localisation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    background-color: white;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+}
+
+.article, .intro {
+    padding: 12px;
+    color: rgb(0, 0, 0);
+    font-weight: lighter;
+    font-size: 16px; 
+}
+
+.intro {
+    display: flex;
+    text-align: center;
+    line-height: 1.7em;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+.article {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url('/image4.avif');
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed; 
+    width: 100%; 
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 80px 0;
+    font-weight: 500;
+    font-size: 16px;
+    position: relative;
+}
+
+.picture {
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    border-radius: 20px 20px 0 0;
+    border: 1px solid #ffffff;
+}
+
+.p {
+    margin: 0 auto 30px auto;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 0 0 20px 20px;
+    line-height: 1.7em;
+    display: flex;
+    text-align: center;
+    background-color: rgb(78,68,58);
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+}
+
+  /* Tablet and Smaller Desktop */

@@ -49,6 +49,7 @@ export default function Header() {
           <li> <Link className={styles.li} href="/" onClick={handleMenuToggle}> Accueil </Link></li>
           <li> <Link className={styles.li} href="/pictures" onClick={handleMenuToggle}> Photos </Link></li>
           <li> <Link className={styles.li} href="/carte" onClick={handleMenuToggle}> La Carte </Link></li>
+           <li> <Link className={styles.li} href="/event" onClick={handleMenuToggle}> Evènements </Link></li>
           <li> <Link className={styles.li} href="/savoir-faire" onClick={handleMenuToggle}> Qui sommes-nous ? </Link></li>
           <li> <Link className={styles.li} href="/contact" onClick={handleMenuToggle}> Contact </Link></li>
         </ul>

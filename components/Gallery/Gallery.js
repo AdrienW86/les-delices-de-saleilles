@@ -13,6 +13,7 @@ export default function Gallery() {
     { src: '/image6.avif', alt: 'photo' },
     { src: '/image7.avif', alt: 'photo' },
     { src: '/image8.avif', alt: 'photo' },
+    { src: '/image9.avif', alt: 'photo' },
   
   ];
 

@@ -39,7 +39,7 @@ export default function Equipment() {
             </button>
           </div>
         </section>
-        <h2 className={styles.h1}> Menu du jour 14€ </h2>
+        <h2 id="menu" className={styles.h1}> Menu du jour 14€ </h2>
           <p className={styles.p}> 
             Chaque jour, un nouveau délice à découvrir.
             Nos plats du jour sont entièrement faits maison, préparés avec des 
@@ -48,7 +48,7 @@ export default function Equipment() {
             concoctée avec passion par notre cheffe.
           </p>
       {/* <SimpleBanner url="/suggestion2.png" /> */}
-      <h2 className={styles.h1}> Suggestion du week-end 22€</h2>
+      <h2 id="suggestion" className={styles.h1}> Suggestion du week-end 22€</h2>
           <p className={styles.p}> 
             Un week-end sous le signe de la gourmandise.
             Chaque fin de semaine, notre chef vous propose une suggestion spéciale,
