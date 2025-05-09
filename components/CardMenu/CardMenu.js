@@ -6,8 +6,8 @@ export default function CardMenu() {
      <section className={styles.section}>
       <h2 className={styles.title}>Les Menus</h2>
       <div className={styles.menu}>
-        <p className={styles.p}> Fondue chinoise (sur réservation minimum 4 personnnes)</p>                 
-<span className={styles.label}> 35€</span>
+        <p className={styles.p}> Fondue chinoise (sur réservation minimum 4 personnnes)<span className={styles.label}> 35€</span> </p>                 
+
  
       </div>
         <div className={styles.menu}>
