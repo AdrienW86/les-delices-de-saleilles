@@ -1,6 +1,7 @@
 import Header from '@/components/Header/Header';
 import Banner from '@/components/Banner/Banner';
 import Menu from '@/components/Menu/Menu';
+import CardMenu from '@/components/CardMenu/CardMenu';
 import Footer from '@/components/Footer/Footer';
 import menuData from '@/app/menuData';
 
@@ -20,6 +21,7 @@ export default function Page() {
       <Menu title="Les Plats de la Mer" items={menuData.mer} />
       <Menu title="Plats Chinois" items={menuData.platsChinois} />
       <Menu title="Les Desserts" items={menuData.desserts} />
+       <CardMenu/>
       <Footer />
     </main>
   );

@@ -1,0 +1,71 @@
+/* menu.module.css */
+.section {
+    color: black;
+    max-width: 600px;
+    margin: auto;
+    background-color: white;
+}
+
+.title {
+  color: black;
+  font-size: 1.5rem;
+  padding: 20px;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+  text-align: center;
+background-color: rgb(78,68,58);  
+}
+
+.menu {
+  display: flex;
+   padding: 10px;
+  justify-content: space-between;
+}
+
+.p, .p2, .p3, .p4, .p5 {
+    width: 100%;
+    text-align: center;
+    font-size: 1.2rem;
+     padding: 10px 20px;
+    margin-bottom: 8px;
+}
+
+.p2 {
+    color: rgb(156,182,45)
+}
+
+.p3 {
+    font-size: 1.5em;
+    text-decoration: underline;
+    color: rgb(35,40,71)
+}
+
+.p4 {
+    font-size: 1.4em;
+     color: rgb(156,182,45);
+    text-decoration: underline;
+}
+
+.p5 {
+    padding-bottom: 40px;
+}
+
+.label {
+  font-size: 1rem;
+  color: rgb(156,182,45);
+   font-weight: 400;
+  margin: 0 8px;
+}
+
+.itemDescription {
+  margin-top: 8px;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+
+
+/* Responsive design */
+@media (max-width: 768px) {
+  
+}
