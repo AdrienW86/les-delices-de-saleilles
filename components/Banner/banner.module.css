@@ -79,6 +79,7 @@
     padding: 16px;
     z-index: 2;
     border-radius: 20px;
+    color: white;
     transition: .4s ease-in-out;
     background-color: rgb(35,40,71);
 }

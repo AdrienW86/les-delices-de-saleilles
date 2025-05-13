@@ -19,6 +19,7 @@
     width: 250px;
     padding: 16px;
     border-radius: 20px;
+    color: white;
     transition: .4s ease-in-out;
     background-color: rgb(35,40,71);
 }
