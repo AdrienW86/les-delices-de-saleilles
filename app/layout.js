@@ -17,8 +17,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="fr" className={lobster.variable}>
       <head>
-        <link rel="icon" href="favicon.png" />
-        
+        <link rel="icon" href="favicon.png" />   
       </head>
      <body className="font-lobster">{children}</body>
     </html>

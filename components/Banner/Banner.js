@@ -34,7 +34,7 @@ export default function Carousel() {
   return (
     <div className={styles.carousel} id="carouselExampleFade">
       <div className={styles.event}>
-        <a href="/event#karaoke"> Venez Découvrir nos soirées karaoké </a>
+        <a href="/event#karaoke"> 🎶 🎤 Venez Découvrir nos soirées karaoké 🎶 🎤</a>
       </div>
        <a href="tel:0650729588" className={styles.callButton}>
         📞 Réserver au 06 50 72 95 88
