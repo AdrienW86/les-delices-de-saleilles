@@ -19,7 +19,7 @@ export default function Equipment() {
             Situé au cœur de Saleilles, à quelques minutes de Perpignan, 
             Les Délices de Saleilles vous accueillent dans un cadre chaleureux 
             et familial pour vous faire découvrir une cuisine savoureuse mêlant 
-            tradition française et spécialités asiatiques.          
+            tradition française et spécialités chinoises.          
           </div>
           {isVisible && (
             <div className={styles.column}>
