@@ -52,7 +52,7 @@ export default function Carousel() {
               exit={{ opacity: 0, x: -50 }}
               transition={{ duration: 0.3 }}
             > 
-              Menu du jour
+              Suggestion de la semaine
             </motion.a>
             <motion.a 
               className={styles.btn2} 
@@ -66,7 +66,7 @@ export default function Carousel() {
               exit={{ opacity: 0, x: 50 }}
               transition={{ duration: 0.3 }}
             > 
-              Suggestion de la semaine 
+              Suggestion du week-end
             </motion.a>
            
         </div>
