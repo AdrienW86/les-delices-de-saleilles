@@ -39,16 +39,20 @@ export default function Equipment() {
             </button>
           </div>
         </section>
-        <h2 id="menu" className={styles.h1}> Menu du jour 14€ </h2>
+        <h2 id="menu" className={styles.h1}> Suggestion de la semaine </h2>
           <p className={styles.p}> 
-            Chaque jour, un nouveau délice à découvrir.
+            Chaque semaine, un nouveau délice à découvrir.
             Nos plats du jour sont entièrement faits maison, préparés avec des 
             ingrédients frais, de saison et soigneusement sélectionnés. 
             Laissez-vous surprendre par des saveurs authentiques et une cuisine généreuse, 
             concoctée avec passion par notre cheffe.
           </p>
-      {/* <SimpleBanner url="/suggestion2.png" /> */}
-      <h2 id="suggestion" className={styles.h1}> Suggestion du week-end 22€</h2>
+      <SimpleBanner url="/plat1.png" />
+       <h2 className={styles.h1}> Suggestion de la semaine </h2>
+       <SimpleBanner url="/plat2.png" />
+         <h2 className={styles.h1}> Suggestion de la semaine </h2>
+       <SimpleBanner url="/plat3.png" />
+      <h2 id="suggestion" className={styles.h1}> Suggestion du week-end</h2>
           <p className={styles.p}> 
             Un week-end sous le signe de la gourmandise.
             Chaque fin de semaine, notre chef vous propose une suggestion spéciale,
@@ -56,7 +60,7 @@ export default function Equipment() {
             découvrir de nouvelles saveurs et de partager un moment convivial autour d’une
             assiette généreuse.
           </p>
-      <SimpleBanner url="/suggestion4.png" />
+      <SimpleBanner url="/suggestion.png" />
     </section>
   );
 }
