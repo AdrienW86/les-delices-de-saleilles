@@ -72,7 +72,7 @@ export default function Description() {
               Notre cuisine repose sur l’amour du métier, le respect des traditions et une passion sincère 
               pour les saveurs authentiques. Grâce à une sélection rigoureuse d’ingrédients frais et de saison, 
               nous vous proposons des recettes généreuses, faites maison, qui célèbrent aussi bien la richesse culinaire 
-              française que les subtilités de la gastronomie asiatique.
+              française que les subtilités de la gastronomie chinoise.
             </motion.p>
           </div>
         </motion.section>
