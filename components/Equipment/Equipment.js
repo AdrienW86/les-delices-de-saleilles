@@ -47,11 +47,13 @@ export default function Equipment() {
             Laissez-vous surprendre par des saveurs authentiques et une cuisine généreuse, 
             concoctée avec passion par notre cheffe.
           </p>
+          <SimpleBanner url="/tartare.png" />
+       <h2 className={styles.h1}> Suggestion de la semaine </h2>
       <SimpleBanner url="/plat1.png" />
        <h2 className={styles.h1}> Suggestion de la semaine </h2>
-       <SimpleBanner url="/plat2.png" />
+       <SimpleBanner url="/thon.png" />
          <h2 className={styles.h1}> Suggestion de la semaine </h2>
-       <SimpleBanner url="/plat3.png" />
+       <SimpleBanner url="/tataki.png" />
       <h2 id="suggestion" className={styles.h1}> Suggestion du week-end</h2>
           <p className={styles.p}> 
             Un week-end sous le signe de la gourmandise.
