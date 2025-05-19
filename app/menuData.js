@@ -200,6 +200,42 @@ const menuData = {
       price: { normal: 18, xl: 20 },
     },
   ],
+
+
+   pizza: [
+    {
+      name: "Pizza 3 Fromages",
+      description: "Tomate, crottin de chèvre, parmesan, mozzarella, manchego, oignon haché",
+      price: 15,
+    },
+    {
+      name: "Pizza Burrata ( boule entière )",
+      description: "Tomate, burrata, huile d'olive, basilic, sauce pesto",
+      price: 15,
+    },
+    {
+      name: "Pizza Chorizo",
+      description: "Tomate, mozzarella râpée, olive noir, roquette, chorizo",
+      price: 15,
+    },
+    {
+      name: "Pizza Saumon Fumé",
+      description: "Tomate, crème fraîche, tranches de saumon fumé, mozzarella râpée",
+      price: 15,
+    },
+    {
+      name: "Pizza Poulet et Champignons",
+      description: "Tomate, oignon, crème fraîche, escalopes de poulet, champignons, mozzarella râpée, olives",
+      price: 15,
+    },
+    {
+      name: "Pizza Jambon de Parme et Roquette",
+      description: "Tomate, 4 tranches de jambon, parmesan, huile d'olive, roquette",
+      price: 15,
+    },
+  ],
+
+
   viandes: [
     {
       name: "Magret de canard entier",

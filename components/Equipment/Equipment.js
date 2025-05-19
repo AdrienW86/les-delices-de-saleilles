@@ -47,6 +47,7 @@ export default function Equipment() {
             Laissez-vous surprendre par des saveurs authentiques et une cuisine généreuse, 
             concoctée avec passion par notre cheffe.
           </p>
+           <SimpleBanner url="/pizza.png" />
           <SimpleBanner url="/tartare.png" />
        <h2 className={styles.h1}> Suggestion de la semaine </h2>
       <SimpleBanner url="/plat1.png" />
@@ -62,7 +63,8 @@ export default function Equipment() {
             découvrir de nouvelles saveurs et de partager un moment convivial autour d’une
             assiette généreuse.
           </p>
-      <SimpleBanner url="/pizza.png" />
+           <SimpleBanner url="/parillade.png" />
+      <SimpleBanner url="/brochettes.png" />
     </section>
   );
 }

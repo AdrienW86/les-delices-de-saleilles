@@ -17,6 +17,7 @@ export default function Page() {
       <Menu title="Les Bières Bouteilles" items={menuData.boissons.biereBouteilles}/>
       <Menu title="Les Vins" items={menuData.boissons.vin}/>
       <Menu title="Les Entrées" items={menuData.entrees} />
+      <Menu title="Les Pizzas" items={menuData.pizza} />
       <Menu title="Les Viandes" items={menuData.viandes} />
       <Menu title="Les Plats de la Mer" items={menuData.mer} />
       <Menu title="Plats Chinois" items={menuData.platsChinois} />
