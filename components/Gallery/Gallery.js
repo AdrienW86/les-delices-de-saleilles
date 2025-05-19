@@ -5,16 +5,23 @@ import styles from './gallery.module.css';
 
 export default function Gallery() {
   const images = [
-    { src: '/image1.avif', alt: 'photo' },
-    { src: '/image2.avif', alt: 'photo' },
-    { src: '/image3.avif', alt: 'photo' },
-    { src: '/image4.avif', alt: 'photo' },
-    { src: '/image5.avif', alt: 'photo' },
-    { src: '/image6.avif', alt: 'photo' },
-    { src: '/image7.avif', alt: 'photo' },
-    { src: '/image8.avif', alt: 'photo' },
-    { src: '/image9.avif', alt: 'photo' },
-  
+    { src: '/facade.avif', alt: 'photo' },
+    { src: '/terrasse.avif', alt: 'photo' },
+    { src: '/salle.avif', alt: 'photo' },
+    { src: '/noel.avif', alt: 'photo' },
+    { src: '/dj.avif', alt: 'photo' },
+    { src: '/nems.avif', alt: 'photo' },
+    { src: '/tartare_mangue.avif', alt: 'photo' },
+    { src: '/ravioles.avif', alt: 'photo' },
+    { src: '/paella.avif', alt: 'photo' },
+    { src: '/plat.avif', alt: 'photo' },
+    { src: '/plat2.avif', alt: 'photo' },
+    { src: '/plat3.avif', alt: 'photo' },
+    { src: '/pizza_jambon_parme.avif', alt: 'photo' },
+    { src: '/tarte_pomme.avif', alt: 'photo' },
+    { src: '/dessert_roule.avif', alt: 'photo' },
+    { src: '/creme.avif', alt: 'photo' },
+    { src: '/chocolat.avif', alt: 'photo' },  
   ];
 
   const [isOpen, setIsOpen] = useState(false);

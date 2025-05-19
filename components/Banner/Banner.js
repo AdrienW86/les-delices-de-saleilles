@@ -6,15 +6,17 @@ import { useInView } from 'react-intersection-observer';
 import styles from './banner.module.css';
 
 const images = [
-  '/image1.avif',
-  '/image2.avif',
-  '/image3.avif',
-  '/image4.avif',
-  '/image5.avif',
-  '/image6.avif',
-  '/image7.avif',
-  '/image8.avif',
-  '/image9.avif',
+  '/facade.avif',
+  '/terrasse.avif',
+  '/salle.avif',
+  '/paella.avif',
+  '/tarte_pomme.avif',
+  '/dj.avif',
+  '/tartare_mangue.avif',
+  '/ravioles.avif',
+  '/dessert_roule.avif',
+  '/noel.avif',
+  '/pizza_jambon_parme.avif',
 ];
 
 export default function Carousel() {
