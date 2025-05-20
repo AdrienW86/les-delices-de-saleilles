@@ -21,8 +21,7 @@ export default function Karaoke() {
                 <p className={styles.p}> Vendredi 23 mai à 19h - <span className={styles.span}> Parillade Catalane </span> </p>
                 <p className={styles.p}> Vendredi 30 mai à 19h - <span className={styles.span}> Couscous </span> </p>
                 <p className={styles.p}> Dimanche 1er juin à 12h - <span className={styles.span}> Trio de brochettes </span> </p>
-                <p className={styles.p}> Vendredi 20 juin à 19h - <span className={styles.span}> Paella </span> </p>
-                
+                <p className={styles.p}> Vendredi 20 juin à 19h - <span className={styles.span}> Paella </span> </p>                
                 <p className={styles.p}> Vendredi 11 juillet à 19h - <span className={styles.span}> Prochainement... </span></p>
                 <p className={styles.p}> Vendredi 25 juillet à 19h - <span className={styles.span}> Prochainement... </span></p>
                 <p className={styles.p}> Vendredi 8 août à 19h - <span className={styles.span}> Prochainement... </span></p>
