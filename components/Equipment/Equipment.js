@@ -48,9 +48,9 @@ export default function Equipment() {
             concoctée avec passion par notre cheffe.
           </p>
            <SimpleBanner url="/pizza.png" />
-          <SimpleBanner url="/tartare.png" />
+          
        <h2 className={styles.h1}> Suggestion de la semaine </h2>
-      <SimpleBanner url="/plat1.png" />
+     <SimpleBanner url="/tartare.png" />
        <h2 className={styles.h1}> Suggestion de la semaine </h2>
        <SimpleBanner url="/thon.png" />
          <h2 className={styles.h1}> Suggestion de la semaine </h2>
