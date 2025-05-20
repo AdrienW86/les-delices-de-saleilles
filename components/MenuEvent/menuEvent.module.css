@@ -4,5 +4,5 @@
   margin: auto;
   position: relative;
   aspect-ratio: 1 / 1; /* carré */
-  background-color: #f0f0f0; /* s’applique aussi en dehors de l’image si elle ne remplit pas tout */
+  background-color: rgb(227,205,201); /* s’applique aussi en dehors de l’image si elle ne remplit pas tout */
 }
