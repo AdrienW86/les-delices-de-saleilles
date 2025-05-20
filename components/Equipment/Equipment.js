@@ -67,7 +67,7 @@ export default function Equipment() {
             assiette généreuse.
           </p>
            <SimpleBanner url="/parillade.png" />
-      <SimpleBanner url="/brochettes.png" />
+      <SimpleBanner url="/brochettes2.png" />
     </section>
   );
 }
