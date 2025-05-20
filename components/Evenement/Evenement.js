@@ -11,7 +11,7 @@ export default function Evenement() {
             <div className={styles.box}>     
                 <Image 
                     id="karaoke"               
-                    src="/image5.avif"
+                    src="/dj.avif"
                     alt="image"
                     width={300}
                     height={300}
@@ -31,7 +31,7 @@ export default function Evenement() {
             </div>
              <div className={styles.box}>     
                 <Image                  
-                    src="/image4.avif"
+                    src="/paella.avif"
                     alt="image"
                     width={300}
                     height={300}
@@ -51,7 +51,7 @@ export default function Evenement() {
             </div>
              <div className={styles.box}>     
                 <Image                  
-                    src="/image9.avif"
+                    src="/noel.avif"
                     alt="image"
                     width={300}
                     height={300}
@@ -69,7 +69,7 @@ export default function Evenement() {
             </div>
              <div className={styles.box}>     
                 <Image                  
-                    src="/image1.avif"
+                    src="/terrasse.avif"
                     alt="image"
                     width={300}
                     height={300}
