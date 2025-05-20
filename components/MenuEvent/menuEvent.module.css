@@ -1,8 +1,26 @@
+.modal {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: zoom-out;
+}
+
+.modalContent {
+  position: relative;
+  width: 90vw;
+  height: 90vh;
+}
+
 .banner {
   width: 100%;
   max-width: 600px;
   margin: auto;
   position: relative;
-  aspect-ratio: 1 / 1; /* carré */
-  background-color: rgb(227,205,201); /* s’applique aussi en dehors de l’image si elle ne remplit pas tout */
+  aspect-ratio: 1 / 1;
+  background-color: rgb(227,205,201);
+  cursor: zoom-in;
 }
