@@ -3,6 +3,7 @@
 import React, { useState } from 'react';
 import SimpleBanner from '../SimpleBanner/SimpleBanner';
 import styles from "./equipment.module.css";
+import MenuEvent from '../MenuEvent/MenuEvent';
 
 export default function Equipment() {
   const [isVisible, setIsVisible] = useState(false);
@@ -39,6 +40,8 @@ export default function Equipment() {
             </button>
           </div>
         </section>
+         <h2 className={styles.h1}> Menu de la fête des mères </h2>
+          <MenuEvent />        
         <h2 id="menu" className={styles.h1}> Suggestion de la semaine </h2>
           <p className={styles.p}> 
             Chaque semaine, un nouveau délice à découvrir.
