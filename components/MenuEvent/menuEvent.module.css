@@ -24,3 +24,11 @@
   background-color: rgb(227,205,201);
   cursor: zoom-in;
 }
+
+.date {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid rgb(35,40,71);
+}

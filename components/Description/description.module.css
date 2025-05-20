@@ -92,12 +92,3 @@
     justify-content: center;
     color: black;
 }
-
-  /* Tablet and Smaller Desktop */
-@media (min-width: 701px) and (max-width: 1120px) {
-   
-}
-
-@media (min-width: 1121px) {
-   
-}
