@@ -107,7 +107,7 @@
 .p {
     margin: 0 auto 30px auto;
     width: 300px;
-    height: 300px;
+    
     padding: 20px;
     border-radius: 0 0 20px 20px;
     line-height: 1.7em;
@@ -119,4 +119,16 @@
     color: rgb(255, 255, 255);
 }
 
-  /* Tablet and Smaller Desktop */
+.button {
+    padding: 8px;
+    border-radius: 20px;
+    margin: 20px;
+    transition: .4s ease-in-out;
+    border: 1px solid white;
+}
+ 
+.button:hover {
+    cursor: pointer;
+    color: rgb(78,68,58);
+    background-color: white;
+}

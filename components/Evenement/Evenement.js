@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 import styles from './evenement.module.css'
 
 export default function Evenement() {
@@ -25,6 +26,7 @@ export default function Evenement() {
                             Que vous chantiez juste ou faux, l’essentiel c’est de s’amuser !
                             Rendez-vous chaque vendredi à partir de 20h.
                         </p>
+                        <Link className={styles.button} href="/karaoke"> Voir les prochaines dates </Link>
                 </div>
             </div>
              <div className={styles.box}>     
