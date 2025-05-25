@@ -1,33 +1,38 @@
 /* menu.module.css */
 .section {
-    color: black;
-    max-width: 600px;
-    margin: auto;
-    background-color: white;
+  color: black;
+  max-width: 600px;
+  margin: auto;
+  background-color: white;
 }
 
 .title {
   color: black;
   font-size: 1.5rem;
-  padding: 20px;
+  padding: 10px;
   font-weight: 400;
   color: rgb(255, 255, 255);
   text-align: center;
-background-color: rgb(78,68,58);  
+  background-color: rgb(78,68,58);  
 }
 
 .menu {
   display: flex;
-   padding: 10px;
+  margin: auto;
+  padding: 20px;  
   justify-content: space-between;
+}
+
+.menu2 {
+  padding: 20px;
 }
 
 .p, .p2, .p3, .p4, .p5 {
     width: 100%;
     text-align: center;
     font-size: 1.2rem;
-     padding: 10px 20px;
-    margin-bottom: 8px;
+    padding: 5px 20px;
+    margin-bottom: 4px;
 }
 
 .p2 {

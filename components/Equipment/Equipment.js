@@ -39,9 +39,7 @@ export default function Equipment() {
               {isVisible ? 'Voir moins' : 'Voir plus'}
             </button>
           </div>
-        </section>
-         <h2 className={styles.h1}> Menu de la fête des mères </h2>
-          <MenuEvent />        
+        </section>        
         <h2 id="menu" className={styles.h1}> Suggestion de la semaine </h2>
           <p className={styles.p}> 
             Chaque semaine, un nouveau délice à découvrir.
