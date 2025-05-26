@@ -175,19 +175,9 @@ const menuData = {
   },
   entrees: [
     {
-      name: "Pan con tomate",
-      description: "Jambon Serrano, salade tomates et oignons",
-      price: { normal: 10, xl: 16 },
-    },
-    {
       name: "Samoussa au poulet",
       description: "Salade verte, tomates oignons rouges",
-      price: { normal: 10, xl: 16 },
-    },
-    {
-      name: "Croustillant de chèvre",
-      description: "Fromage de chèvre, sauce pesto",
-      price: { normal: 13, xl: 16 },
+      price: { normal: 12, xl: 16.50 },
     },
     {
       name: "Nems du chef",
@@ -195,9 +185,29 @@ const menuData = {
       price: { normal: 13, xl: 18 },
     },
     {
+      name: "Croustillant de chèvre",
+      description: "Fromage de chèvre, sauce pesto",
+      price: 18,
+    },
+    {
       name: "Carpaccio du chef",
-      description: "Carpaccio de boeuf, salade verte, parmesan, croustillant chèvre",
-      price: { normal: 18, xl: 20 },
+      description: "Carpaccio de boeuf, salade verte, parmesan, croustillant chèvre (sauce pesto maison, pignon de pain, amandes et basilic)",
+      price: 18,
+    },
+    {
+      name: "Salade de chèvre chaud au miel",
+      description: "Crottin de Chavignol, salade, tomate, oignons, miel et toasts",
+      price: 16,
+    },
+    {
+      name: "Salade César au poulet",
+      description: "Blancs de poulet, salade, parmesan, croûtons, pain de mie, moutarde, crème fraîche",
+      price: 16,
+    },
+    {
+      name: "Burrata du chef",
+      description: "Salade, tomate, jambon ibérique, fromage Burrata (sauce pesto maison, pignon de pain, amandes et basilic)",
+      price: 16,
     },
   ],
 
@@ -234,12 +244,21 @@ const menuData = {
     },
   ],
 
-
   viandes: [
+     {
+      name: "Le délice de Saleilles (nouveauté)",
+      description: "Fromage chaud fondant et coulant (munster ou maroilles) avec frites maison et salade",
+      price: 23,
+    },
+     {
+      name: "Tataki de boeuf",
+      description: "Boeuf saisi et mariné aux épices, frites et salade",
+      price: 18,
+    },
     {
       name: "Magret de canard entier",
       description: "Sauce de la cheffe au miel et à l'orange",
-      price: 28,
+      price: 30,
     },
     {
       name: "Tartare de boeuf revisité(persillé Angus)",
@@ -247,9 +266,9 @@ const menuData = {
       price: 26,
     },
     {
-      name: "Boeuf (persillé Angus)",
+      name: "Pièce du boucher",
       description: "",
-      price: 25,
+      price: 26,
     },
     {
       name: "Porc caramel (3h de cuisson)",
@@ -261,11 +280,6 @@ const menuData = {
       description: "",
       price: 18,
     },
-    {
-      name: "Rumsteak de boeuf",
-      description: "",
-      price: 18,
-    },
   ],
   mer: [
     {
@@ -274,14 +288,14 @@ const menuData = {
       price: 28,
     },
     {
-      name: "Gambas à l'ail et au persil (16 / 20)",
+      name: "Gambas à l'ail et au persil (6 pièces)",
       description: "",
-      price: 22,
+      price: 29,
     },
     {
-      name: "Filet de poisson du jour sauce de la cheffe",
+      name: "Poisson du jour sauce de la cheffe",
       description: "",
-      price: 20,
+      price: 23,
     },
   ],
   platsChinois: [
@@ -291,9 +305,24 @@ const menuData = {
       price: 23,
     },
     {
-      name: "Sauté de porc aux poivrons",
+      name: "Nouilles de riz sautées au poulet",
       description: "",
       price: 23,
+    },
+    {
+      name: "Sauté de porc",
+      description: "",
+      price: 23,
+    },
+    {
+      name: "Ravioles maison (12 pièces)",
+      description: "Porc et boeuf",
+      price: 23,
+    },
+    {
+      name: "Ravioles maison et Siomai crevettes (12 pièces)",
+      description: "",
+      price: 25,
     },
     {
       name: "Crevettes aux noix de cajou",

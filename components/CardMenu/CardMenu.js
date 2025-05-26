@@ -8,9 +8,18 @@ export default function CardMenu() {
       <div className={styles.menu}>
         <p className={styles.p3}> Fondue chinoise (sur réservation minimum 4 personnnes)<span className={styles.label}> 35€</span> </p>  
       </div>
-      <div className={styles.menu}>
-        <p className={styles.p3}> Menu Découverte <span className={styles.label}>  28.90 </span></p>  
+       <div className={styles.menu}>
+        <p className={styles.p3}> Menu "Petit loup" (enfant - 10 ans) <span className={styles.label}>  12€ </span></p>  
+        <p className={styles.p}> Nuggets de poulet avec frites </p>
+        <p className={styles.p}> ou </p>
+          <p className={styles.p}> Jambon frites </p>
+          <p className={styles.p}> + </p>
+          <p className={styles.p}> 1 boule de glace au choix </p>
       </div>
+      <div className={styles.menu}>
+        <p className={styles.p3}> Menu Découverte <span className={styles.label}>  28.90€ </span></p>  
+      </div>
+     
       <div className={styles.menu2}>
         <p className={styles.p4}> Entrée </p>
           <p className={styles.p}> La Salade de thon composée </p>
