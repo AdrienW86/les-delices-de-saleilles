@@ -3,17 +3,13 @@ import styles from './cardMenu.module.css'
 
 export default function CardMenu() {
   return (
-     <section className={styles.section}>
+    <section className={styles.section}>
       <h2 className={styles.title}>Les Menus</h2>
       <div className={styles.menu}>
-        <p className={styles.p3}> Fondue chinoise (sur réservation minimum 4 personnnes)<span className={styles.label}> 35€</span> </p>                 
-
- 
+        <p className={styles.p3}> Fondue chinoise (sur réservation minimum 4 personnnes)<span className={styles.label}> 35€</span> </p>  
       </div>
-        <div className={styles.menu}>
-        <p className={styles.p3}> Menu Découverte <span className={styles.label}>  28.90 </span></p>                 
-        
- 
+      <div className={styles.menu}>
+        <p className={styles.p3}> Menu Découverte <span className={styles.label}>  28.90 </span></p>  
       </div>
       <div className={styles.menu2}>
         <p className={styles.p4}> Entrée </p>
@@ -32,7 +28,7 @@ export default function CardMenu() {
             <p className={styles.p}> La Crème catalane </p>
           <p className={styles.p2}> ou </p>
           <p className={styles.p}> Le dessert du jour </p>   
-        </div>
+      </div>
     </section>
   )
 }

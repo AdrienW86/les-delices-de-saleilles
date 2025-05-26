@@ -3,7 +3,6 @@
 import React, { useState } from 'react';
 import SimpleBanner from '../SimpleBanner/SimpleBanner';
 import styles from "./equipment.module.css";
-import MenuEvent from '../MenuEvent/MenuEvent';
 
 export default function Equipment() {
   const [isVisible, setIsVisible] = useState(false);
@@ -39,7 +38,9 @@ export default function Equipment() {
               {isVisible ? 'Voir moins' : 'Voir plus'}
             </button>
           </div>
-        </section>        
+        </section>   
+        <h2 className={styles.h1}> Évènement </h2>
+          <SimpleBanner url="/dusty.png" />
         <h2 id="menu" className={styles.h1}> Suggestion de la semaine </h2>
           <p className={styles.p}> 
             Chaque semaine, un nouveau délice à découvrir.
@@ -48,8 +49,7 @@ export default function Equipment() {
             Laissez-vous surprendre par des saveurs authentiques et une cuisine généreuse, 
             concoctée avec passion par notre cheffe.
           </p>
-           <SimpleBanner url="/pizza.png" />
-          
+      <SimpleBanner url="/pizza.png" />          
        <h2 className={styles.h1}> Suggestion de la semaine </h2>
      <SimpleBanner url="/tartare.png" />
        <h2 className={styles.h1}> Suggestion de la semaine </h2>

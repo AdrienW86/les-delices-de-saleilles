@@ -1,5 +1,4 @@
-const eventMenus = [
-  
+const eventMenus = [ 
   {
     date: 'Vendredi 30 mai à 19h',
     plats: [
