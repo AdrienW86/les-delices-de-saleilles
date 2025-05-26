@@ -40,7 +40,21 @@ export default function Equipment() {
           </div>
         </section>   
         <h2 className={styles.h1}> Évènement </h2>
-          <SimpleBanner url="/dusty.png" />
+         <SimpleBanner url="/dusty.png" />
+         <p className={styles.p}> 
+            📣🎸 Soirée Concert aux Délices de Saleilles ! 🎶🍽️ <br></br>
+            
+            Préparez-vous pour une soirée inoubliable !
+            Le groupe Dusty Shoes débarque aux Délices de Saleilles le samedi 19 juillet 2025 pour vous faire vibrer au rythme du blues, rock et folk ! 🎤🎸🔥 <br></br>
+            👉 Ambiance festive, musique live, et bien sûr… nos délicieuses spécialités maison à savourer entre amis ou en famille. 
+            Un cocktail parfait pour une soirée d'été réussie ! 🌅✨ <br></br>
+            📍 Où ? Restaurant Les Délices de Saleilles <br></br>
+            📆 Quand ? Samedi 19 juillet 2025 – à partir de 20h <br></br>
+            🎶 Qui ? Le groupe Dusty Shoes en live <br></br>
+            📞 Réservation conseillée : 06 50 72 95 88 <br></br>
+            🎟️ Entrée libre – consommation sur place <br></br>
+            ➡️ Partagez l'événement, invitez vos amis et venez nombreux pour profiter d’un moment musical unique sous le ciel catalan !
+          </p>
         <h2 id="menu" className={styles.h1}> Suggestion de la semaine </h2>
           <p className={styles.p}> 
             Chaque semaine, un nouveau délice à découvrir.
