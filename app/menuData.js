@@ -262,7 +262,7 @@ const menuData = {
     },
     {
       name: "Tartare de boeuf revisité(persillé Angus)",
-      description: "Fait au couteau (spécialité de la cheffe)mangue, boeuf, échalotee, herbes aromatiques, soja, sauce huître",
+      description: "Fait au couteau (spécialité de la cheffe)mangue, boeuf, échalotes, herbes aromatiques, soja, sauce huître",
       price: 26,
     },
     {

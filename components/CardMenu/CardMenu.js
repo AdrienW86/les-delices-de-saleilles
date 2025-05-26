@@ -18,9 +18,7 @@ export default function CardMenu() {
       </div>
       <div className={styles.menu}>
         <p className={styles.p3}> Menu Découverte <span className={styles.label}>  28.90€ </span></p>  
-      </div>
-     
-      <div className={styles.menu2}>
+      
         <p className={styles.p4}> Entrée </p>
           <p className={styles.p}> La Salade de thon composée </p>
           <p className={styles.p2}> ou </p>
