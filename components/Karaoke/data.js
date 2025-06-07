@@ -1,15 +1,23 @@
 const eventMenus = [ 
   {
-    date: 'Vendredi 30 mai à 19h',
+    date: 'Dimanche 8 juin à 20h',
     plats: [
-      { nom: 'Couscous', prix: '20€' },
-      { nom: 'Filet mignon crème moutarde vin blanc, frites et salade.', prix: '18€' },
+      { nom: 'Jambon grillé sauce Banyuls, purée de pommes de terre', prix: '16€' },
+      { nom: 'Couscous poulet et merguez', prix: '20€' },
+      { nom: 'Paleron de boeuf sauce caramel avec riz', prix: '20€' },
     ]
   },
   {
-    date: 'Vendredi 20 juin à 19h',
+    date: 'Vendredi 20 juin à 20h',
     plats: [
       { nom: 'Paella', prix: '20€' },
+    ]
+  },
+  {
+    date: 'Vendredi 11 juillet à 20h',
+    plats: [
+      { nom: 'Galette 3 fromages', prix: '16€' },
+      { nom: 'Galette saucisse catalane', prix: '16€' },
     ]
   },
 ];

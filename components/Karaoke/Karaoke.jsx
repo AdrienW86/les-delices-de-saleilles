@@ -20,7 +20,6 @@ export default function Karaoke() {
           <p className={styles.p}> 🍽️ Un bon repas à savourer dans une atmosphère détendue </p>                  
         <h2 className={styles.h3}> Les prochaines dates de nos soirées karaoké </h2> 
        <KaraokeCard />
-        <p className={styles.p}> Vendredi 11 juillet à 19h - <span className={styles.span}> Prochainement... </span></p>
         <p className={styles.p}> Vendredi 25 juillet à 19h - <span className={styles.span}> Prochainement... </span></p>
         <p className={styles.p}> Vendredi 8 août à 19h - <span className={styles.span}> Prochainement... </span></p>
         <p className={styles.p}> Vendredi 22 août à 19h - <span className={styles.span}> Prochainement... </span></p>

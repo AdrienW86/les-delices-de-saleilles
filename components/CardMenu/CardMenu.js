@@ -17,8 +17,7 @@ export default function CardMenu() {
           <p className={styles.p}> 1 boule de glace au choix </p>
       </div>
       <div className={styles.menu}>
-        <p className={styles.p3}> Menu Découverte <span className={styles.label}>  28.90€ </span></p>  
-      
+        <p className={styles.p3}> Menu Découverte <span className={styles.label}>  28.90€ </span></p>      
         <p className={styles.p4}> Entrée </p>
           <p className={styles.p}> La Salade de thon composée </p>
           <p className={styles.p2}> ou </p>
