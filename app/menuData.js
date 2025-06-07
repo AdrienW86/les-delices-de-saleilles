@@ -43,10 +43,6 @@ const menuData = {
       },
       {
         name: "Grand café",
-        price: 3.80,
-      },
-      {
-        name: "Grand café",
         price: 4,
       },
     ],
