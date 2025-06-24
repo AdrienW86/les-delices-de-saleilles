@@ -1,16 +1,8 @@
 const eventMenus = [ 
   {
-    date: 'Dimanche 8 juin à 20h',
+    date: 'Jeudi 3 Juillet à 20h',
     plats: [
-      { nom: 'Jambon grillé sauce Banyuls, purée de pommes de terre', prix: '16€' },
-      { nom: 'Couscous poulet et merguez', prix: '20€' },
       { nom: 'Paleron de boeuf sauce caramel avec riz', prix: '20€' },
-    ]
-  },
-  {
-    date: 'Vendredi 20 juin à 20h',
-    plats: [
-      { nom: 'Paella', prix: '20€' },
     ]
   },
   {
