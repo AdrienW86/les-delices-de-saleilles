@@ -21,7 +21,7 @@ export default function Footer() {
        <p className={styles.socialTitle}> Suivez-nous sur les réseaux</p>
        <div className={styles.social}>
          
-            <Link href='https://www.instagram.com/klenn_couverture/' className={styles.p} >
+            <Link href='https://www.instagram.com/lesdelicesdesaleilles66280/' className={styles.p} >
               <Image 
                 width={40}
                 height={40}
@@ -29,7 +29,7 @@ export default function Footer() {
                 alt="logo instagram"
               />
             </Link>
-            <Link href='https://www.facebook.com/profile.php?id=61575584465166&locale=fr_FR' className={styles.p} >
+            <Link href='https://www.facebook.com/profile.php?id=61573077621099' className={styles.p} >
               <Image 
                 width={40}
                 height={40}
