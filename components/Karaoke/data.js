@@ -2,7 +2,7 @@ const eventMenus = [
   {
     date: 'Jeudi 3 Juillet à 20h',
     plats: [
-      { nom: 'Paleron de boeuf sauce caramel avec riz', prix: '20€' },
+      { nom: 'Paleron de boeuf 5épices frites et salade', prix: '20€' },
     ]
   },
   {

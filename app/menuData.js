@@ -30,8 +30,12 @@ const menuData = {
     ],
     chaudes: [
       {
-        name: "Petit café",
-        price: 2,
+        name: "Petit café lavazza avec spéculos",
+        price: 1.40,
+      },
+      {
+        name: "Petit café + croissant",
+        price: 1.90,
       },
       {
         name: "Chocolat / Thé / Cappuccino",
