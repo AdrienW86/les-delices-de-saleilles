@@ -209,6 +209,21 @@ const menuData = {
       description: "Salade, tomate, jambon ibérique, fromage Burrata (sauce pesto maison, pignon de pain, amandes et basilic)",
       price: 16,
     },
+    {
+      name: "Salade de boeuf 5 épices",
+      description: "Paleron de boeuf aux 5 épices (3h de cuisson)",
+      price: 18,
+    },
+    {
+      name: "Salade melon, feta, jambon cru",
+      description: "Salade verte, melon, fromage fêta, jambon cru (24 mois)",
+      price: 18,
+    },
+    {
+      name: "Fish and chips",
+      description: "Filet de merlu, salade verte, tomate, oignon rouge",
+      price: 18,
+    },
   ],
 
    pizza: [
