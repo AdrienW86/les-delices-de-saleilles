@@ -60,7 +60,7 @@ export default function Equipment() {
             Tout le mois de juillet, vos vendredis soirs riment avec bonne humeur et bons petits plats aux Délices de Saleilles ! <br></br>
             📍 Sur place, en terrasse, dans une ambiance chaleureuse et conviviale ! <br></br>
             Voici le programme de ce mois de juillet : <br></br>
-            📅 Vendredi 7 juillet <br></br>
+            📅 Vendredi 4 juillet <br></br>
             🔥 Duo de brochettes bœuf & poulet, frites maison et salade <br></br>
             💰 20€ par personne <br></br>
             📅 Vendredi 11 juillet <br></br>
