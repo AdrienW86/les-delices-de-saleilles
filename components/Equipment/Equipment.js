@@ -93,6 +93,8 @@ export default function Equipment() {
             découvrir de nouvelles saveurs et de partager un moment convivial autour d’une
             assiette généreuse.
           </p>
+        <SimpleBanner url="/tataki.png" />
+        <SimpleBanner url="/thon.png" />
         <SimpleBanner url="/brochettes3.png" />
     </section>
   );
