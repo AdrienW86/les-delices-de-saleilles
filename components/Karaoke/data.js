@@ -1,10 +1,5 @@
 const eventMenus = [ 
-  {
-    date: 'Jeudi 3 Juillet à 20h',
-    plats: [
-      { nom: 'Paleron de boeuf 5épices frites et salade', prix: '20€' },
-    ]
-  },
+  
   {
     date: 'Vendredi 11 juillet à 20h',
     plats: [
