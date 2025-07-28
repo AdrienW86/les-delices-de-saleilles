@@ -19,9 +19,31 @@ export default function Gallery() {
     { src: '/plat3.avif', alt: 'photo' },
     { src: '/pizza_jambon_parme.avif', alt: 'photo' },
     { src: '/tarte_pomme.avif', alt: 'photo' },
-    { src: '/dessert_roule.avif', alt: 'photo' },
+   
     { src: '/creme.avif', alt: 'photo' },
     { src: '/chocolat.avif', alt: 'photo' },  
+    { src: '/lapin.jpg', alt: 'photo' },
+    { src: '/poulet.jpg', alt: 'photo' },  
+    { src: '/couscous.jpg', alt: 'photo' },  
+
+ { src: '/brochette.jpg', alt: 'photo' },  
+    { src: '/fraise.jpg', alt: 'photo' }, 
+
+    { src: '/salade.jpg', alt: 'photo' },  
+    { src: '/salade2.jpg', alt: 'photo' }, 
+
+    { src: '/plat2.jpg', alt: 'photo' },  
+    { src: '/plat3.jpg', alt: 'photo' }, 
+
+      { src: '/tarte.jpg', alt: 'photo' },  
+    { src: '/plat5.jpg', alt: 'photo' }, 
+
+    { src: '/pizza.jpg', alt: 'photo' },  
+    { src: '/pizza2.jpg', alt: 'photo' }, 
+    { src: '/pizza3.jpg', alt: 'photo' },  
+    { src: '/pizza4.jpg', alt: 'photo' }, 
+
+
     { src: '/image1.jpg', alt: '' },
     { src: '/image2.jpg', alt: '' },
     { src: '/image3.jpg', alt: '' },

@@ -11,7 +11,7 @@ export default function Description() {
 
   const services = [
     {
-      img: '/plat3.avif',
+      img: '/poulet.jpg',
       alt: 'plat soigné',
       p: 'Un savoir-faire au service du goût',
       text: 'Nos plats sont préparés avec passion, dans le respect des traditions culinaires. Chaque recette reflète notre engagement pour une cuisine maison, généreuse et authentique.',
@@ -27,7 +27,7 @@ export default function Description() {
       pRef: 7,
     },
     {
-      img: '/paella.avif',
+      img: '/image22.jpg',
       alt: 'photo de la salle',
        p: 'Privatisez notre restaurant pour vos événements',
     text: 'Anniversaire, repas de groupe ou occasion spéciale ? Nous vous offrons la possibilité de louer notre salle et de créer un menu sur mesure selon vos envies.',
@@ -36,7 +36,7 @@ export default function Description() {
       pRef: 10,
     },
     {
-      img: '/tartare_mangue.avif',
+      img: '/salade2.jpg',
       alt: 'ingredients frais',
      p: 'Des produits frais et de saison',
     text: 'Nous sélectionnons des ingrédients locaux et de qualité, pour une cuisine saine et savoureuse. Chaque saison inspire notre carte, pour toujours plus de fraîcheur dans vos assiettes.',
@@ -53,7 +53,7 @@ export default function Description() {
         </div>
         <motion.section className={styles.localisation}>
           <Image
-            src="/facade.avif"
+            src="/plat5.jpg"
             alt="facade du restaurant"
             width={400}
             height={400}
