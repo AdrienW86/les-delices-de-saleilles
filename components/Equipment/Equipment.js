@@ -39,29 +39,19 @@ export default function Equipment() {
             </button>
           </div>
         </section>   
-        <h2 className={styles.h1}> Évènement </h2>
-          <SimpleBanner url="/vendredi.png" />
-         <p className={styles.p}> 
-            🎉 Les Vendredis de Saleilles - Juillet aux Délices de Saleilles ! 🍽️ <br></br>
-            Tout le mois de juillet, vos vendredis soirs riment avec bonne humeur et bons petits plats aux Délices de Saleilles ! <br></br>
-            📍 Sur place, en terrasse, dans une ambiance chaleureuse et conviviale ! <br></br>
-            Voici le programme de ce mois de juillet : <br></br>
-            📅 Vendredi 4 juillet <br></br>
-            🔥 Duo de brochettes bœuf & poulet, frites maison et salade <br></br>
-            💰 20€ par personne <br></br>
-            📅 Vendredi 11 juillet <br></br>
-            🥘 Paella géante faite maison <br></br>
-            💰 20€ par personne <br></br>
-            📅 Vendredi 18 juillet <br></br>
-            🐚 Moules-frites à volonté <br></br>
-            💰 16€ par personne <br></br>
-            📅 Vendredi 25 juillet <br></br>
-            🥩 Parillade de viandes, frites et salade <br></br>
-            💰 20€ par personne <br></br>
-            🕗 Service à partir de 19h <br></br>
-            📞 Réservation conseillée au 06 50 72 95 88 <br></br>
-            👉 En famille, entre amis ou en amoureux, on vous attend nombreux pour profiter des soirées d'été à Saleilles !
-          </p>
+  <h2 className={styles.h1}> Nos plats à emporter </h2>
+<p className={styles.p}>
+  Envie d’un repas savoureux et rapide ?  
+  Découvrez nos formules gourmandes à emporter, parfaites pour vos pauses déjeuner ou vos dîners faciles !  
+  <br /> Formule Nouilles + Samoussa au poulet maison + Canette au choix - 16€ seulement !  
+  <br /> Nouilles jambon, œuf & tomates  
+  <br /> Nouilles bœuf & carottes  
+  <br /> Nouilles porc & aubergines  
+  <br/> Accompagné d’un duo de samoussas au poulet faits maison, et une canette au choix pour vous désaltérer.
+</p>
+<SimpleBanner url="/emporte.png" />
+<SimpleBanner url="/emporte2.png" />
+<SimpleBanner url="/emporte3.png" />
         <h2 id="menu" className={styles.h1}> Suggestion de la semaine </h2>
           <p className={styles.p}> 
             Chaque semaine, un nouveau délice à découvrir.
