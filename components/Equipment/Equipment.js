@@ -59,7 +59,8 @@ export default function Equipment() {
             ingrédients frais, de saison et soigneusement sélectionnés. 
             Laissez-vous surprendre par des saveurs authentiques et une cuisine généreuse, 
             concoctée avec passion par notre cheffe.
-          </p>     
+          </p>    
+           <SimpleBanner url="/canard2.jpg" /> 
           <SimpleBanner url="/lapin.png" />  
           <SimpleBanner url="/tartare.png" />      
         <h2 id="suggestion" className={styles.h1}> Suggestion du week-end</h2>
