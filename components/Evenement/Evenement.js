@@ -81,7 +81,7 @@ export default function Evenement() {
                         <p>
                             🎉 Organisez vos événements au restaurant !
                             Anniversaires, repas de famille, fêtes entre amis ou événements d’entreprise… 
-                            La salle du restaurant, Le Patio ainsi que la terrasse peuvent être mis à votre disposition sur demande.
+                            La salle du restaurant (44 places), le patio avec clim et chauffage (40 places) ainsi que la terrasse couverte (40places) peuvent être mis à votre disposition sur demande.
                             Profitez d’un service sur mesure et d’une ambiance unique pour faire de votre événement un véritable succès !
                         </p>
                 </div>
