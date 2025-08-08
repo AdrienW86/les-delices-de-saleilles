@@ -184,6 +184,36 @@ const menuData = {
       description: "Avec salade verte, tomates et oignons rouges",
       price: { normal: 13, xl: 18 },
     },
+      {
+      name: "Bouchées à la reine faite maison",
+      description: "",
+      price: 8,
+    },
+    {
+      name: "Melon au jambon cru",
+      description: "",
+      price: 7,
+    },
+    {
+      name: "Petite assiette de charcuterie",
+      description: "",
+      price: 7,
+    },
+    {
+      name: "Salade de tomate au sucre",
+      description: "",
+      price: 6,
+    },
+    {
+      name: "Salade de thon sur lit de verdure et oeuf dur",
+      description: "",
+      price: 6,
+    },
+    {
+      name: "Assiettes de 3 fromages",
+      description: "",
+      price: 9,
+    },
     {
       name: "Croustillant de chèvre",
       description: "Fromage de chèvre, sauce pesto",
@@ -208,11 +238,6 @@ const menuData = {
       name: "Burrata du chef",
       description: "Salade, tomate, jambon ibérique, fromage Burrata (sauce pesto maison, pignon de pain, amandes et basilic)",
       price: 16,
-    },
-    {
-      name: "Salade de boeuf 5 épices",
-      description: "Paleron de boeuf aux 5 épices (3h de cuisson)",
-      price: 18,
     },
     {
       name: "Salade melon, feta, jambon cru",

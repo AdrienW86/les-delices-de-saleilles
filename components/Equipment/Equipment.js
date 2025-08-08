@@ -39,19 +39,6 @@ export default function Equipment() {
             </button>
           </div>
         </section>   
-  <h2 className={styles.h1}> Nos plats à emporter </h2>
-<p className={styles.p}>
-  Envie d’un repas savoureux et rapide ?  
-  Découvrez nos formules gourmandes à emporter, parfaites pour vos pauses déjeuner ou vos dîners faciles !  
-  <br /> Formule Nouilles + Samoussa au poulet maison + Canette au choix - 16€ seulement !  
-  <br /> Nouilles jambon, œuf & tomates  
-  <br /> Nouilles bœuf & carottes  
-  <br /> Nouilles porc & aubergines  
-  <br/> Accompagné d’un duo de samoussas au poulet faits maison, et une canette au choix pour vous désaltérer.
-</p>
-<SimpleBanner url="/emporte.png" />
-<SimpleBanner url="/emporte2.png" />
-<SimpleBanner url="/emporte3.png" />
         <h2 id="menu" className={styles.h1}> Suggestion de la semaine </h2>
           <p className={styles.p}> 
             Chaque semaine, un nouveau délice à découvrir.
