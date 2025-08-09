@@ -6,7 +6,7 @@ import styles from './map.module.css';
 export default function GoogleMap() {
   const address = {
     name: "Les Délices de Saleilles",
-    email: "bernard.yanwei@gmail.com.com",
+    email: "bernard.yanwei@gmail.com",
     phone: "06 50 72 95 88",
     fullAddress: "26 avenue de Perpignan, 66280 Saleilles",
   };
