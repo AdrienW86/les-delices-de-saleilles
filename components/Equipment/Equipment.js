@@ -39,8 +39,7 @@ export default function Equipment() {
             </button>
           </div>
         </section>   
-         <h2 className={styles.h1}> Soirée Paella dimanche 10 août </h2>
-         <SimpleBanner url="/paella2.png" />
+        <SimpleBanner url="/menu.png" /> 
         <h2 id="menu" className={styles.h1}> Suggestion de la semaine </h2>
           <p className={styles.p}> 
             Chaque semaine, un nouveau délice à découvrir.
