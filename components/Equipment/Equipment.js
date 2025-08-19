@@ -49,7 +49,6 @@ export default function Equipment() {
             concoctée avec passion par notre cheffe.
           </p>    
            <SimpleBanner url="/canard2.jpg" /> 
-          <SimpleBanner url="/lapin.png" />  
           <SimpleBanner url="/tartare.png" />      
         <h2 id="suggestion" className={styles.h1}> Suggestion du week-end</h2>
           <p className={styles.p}> 
