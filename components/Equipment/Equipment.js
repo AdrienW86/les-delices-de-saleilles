@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import SimpleBanner from '../SimpleBanner/SimpleBanner';
+import SimpleBanner2 from '../SimpleBanner2/SimpleBanner2';
 import styles from "./equipment.module.css";
 
 export default function Equipment() {
@@ -39,7 +40,8 @@ export default function Equipment() {
             </button>
           </div>
         </section>   
-       
+       <h2 className={styles.h1}> Evènement</h2>
+       <SimpleBanner2 url="/karaoke.png" /> 
         <h2 id="menu" className={styles.h1}> Suggestion de la semaine </h2>
           <p className={styles.p}> 
             Chaque semaine, un nouveau délice à découvrir.
