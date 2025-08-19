@@ -5,10 +5,10 @@ import KaraokeCard from '../KaraokeCard/KaraokeCard'
 export default function Karaoke() {
   return (
     <section className={styles.container}>        
-      <h1 className={styles.title}> 🎤 Soirées Karaoké avec DJ’s Revolution – Ambiance garantie aux Délices de Saleilles ! 🎶 </h1>
+      <h1 className={styles.title}> 🎤 Soirées Karaoké avec Michel et Eric – Ambiance garantie aux Délices de Saleilles ! 🎶 </h1>
         <article className={styles.article}>
           Préparez-vous à vivre des soirées inoubliables aux Délices de Saleilles 
-          avec nos soirées karaoké animées par DJ’s Revolution ! Que vous soyez 
+          avec nos soirées karaoké animées par Michel et Eric ! Que vous soyez 
           chanteur amateur ou star en devenir, c’est l’occasion parfaite de monter 
           sur scène, micro en main, et de partager un moment convivial en famille 
           ou entre amis.
@@ -20,9 +20,7 @@ export default function Karaoke() {
           <p className={styles.p}> 🍽️ Un bon repas à savourer dans une atmosphère détendue </p>                  
         <h2 className={styles.h3}> Les prochaines dates de nos soirées karaoké </h2> 
        <KaraokeCard />
-        <p className={styles.p}> Vendredi 25 juillet à 19h - <span className={styles.span}> Prochainement... </span></p>
-        <p className={styles.p}> Vendredi 8 août à 19h - <span className={styles.span}> Prochainement... </span></p>
-        <p className={styles.p}> Vendredi 22 août à 19h - <span className={styles.span}> Prochainement... </span></p>
+        
     </section>
   )
 }

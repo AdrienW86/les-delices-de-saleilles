@@ -39,7 +39,7 @@ export default function Equipment() {
             </button>
           </div>
         </section>   
-        <SimpleBanner url="/menu2.png" /> 
+       
         <h2 id="menu" className={styles.h1}> Suggestion de la semaine </h2>
           <p className={styles.p}> 
             Chaque semaine, un nouveau délice à découvrir.
