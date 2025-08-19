@@ -184,11 +184,42 @@ const menuData = {
       description: "Avec salade verte, tomates et oignons rouges",
       price: { normal: 13, xl: 18 },
     },
-      {
+    {
+      name: "Melon au jambon cru",
+      description: "",
+      price: 8,
+    },
+     {
+      name: "Salade de melon et féta",
+      description: "",
+      price: 7,
+    },
+    {
+      name: "Tomates mozzarella sauce pesto",
+      description: "",
+      price: 7,
+    },
+     {
+      name: "Petite assiette de charcuterie",
+      description: "",
+      price: 7,
+    },
+     {
+      name: "Salade de thon et mais",
+      description: "",
+      price: 7,
+    },
+     {
+      name: "Samoussa au boeuf",
+      description: "",
+      price: 7,
+    },
+    {
       name: "Bouchées à la reine faite maison",
       description: "",
       price: 8,
     },
+
     {
       name: "Melon au jambon cru",
       description: "",
