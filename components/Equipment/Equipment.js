@@ -53,6 +53,7 @@ export default function Equipment() {
             Laissez-vous surprendre par des saveurs authentiques et une cuisine généreuse, 
             concoctée avec passion par notre cheffe.
           </p>    
+           <SimpleBanner url="/porc.png" />
            <SimpleBanner url="/canard2.jpg" /> 
           <SimpleBanner url="/tartare.png" />      
         <h2 id="suggestion" className={styles.h1}> Suggestion du week-end</h2>
