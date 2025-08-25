@@ -42,6 +42,9 @@ export default function Equipment() {
         </section>   
        <h2 className={styles.h1}> Evènement</h2>
        <SimpleBanner2 url="/karaoke.png" /> 
+         <h2 className={styles.h1}> Nouveautés</h2>
+       <SimpleBanner url="/nems-chocolat.png" /> 
+        <SimpleBanner url="/sauce-piquante.png" /> 
         <h2 id="menu" className={styles.h1}> Suggestion de la semaine </h2>
           <p className={styles.p}> 
             Chaque semaine, un nouveau délice à découvrir.

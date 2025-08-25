@@ -430,6 +430,11 @@ const menuData = {
       description: "Ananas, glace vanille, caramel et chantilly maison",
       price: 10,
     },
+    {
+      name: "Nems banane et chocolat",
+      description: "Nems chcocolat et banane, glace citron vert artisanale et chantilly maison",
+      price: 10,
+    },
   ],
 };
 
