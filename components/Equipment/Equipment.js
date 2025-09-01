@@ -53,6 +53,11 @@ export default function Equipment() {
             Laissez-vous surprendre par des saveurs authentiques et une cuisine généreuse, 
             concoctée avec passion par notre cheffe.
           </p>    
+          <h3 className={styles.h1}> Lundi - Mardi </h3>
+          <SimpleBanner url="couscous.png" />
+           <h3 className={styles.h1}> Mercredi - Jeudi </h3>
+          <SimpleBanner url="paella2.png" />
+          <h3 className={styles.h1}> Toute la semaine </h3>
            <SimpleBanner url="/porc.png" />
            <SimpleBanner url="/canard2.jpg" /> 
           <SimpleBanner url="/tartare.png" />      
@@ -64,10 +69,7 @@ export default function Equipment() {
             découvrir de nouvelles saveurs et de partager un moment convivial autour d’une
             assiette généreuse.
           </p>
-        
-        <SimpleBanner url="/tataki.png" />
         <SimpleBanner url="/thon.png" />
-        <SimpleBanner url="/brochettes3.png" />
     </section>
   );
 }
