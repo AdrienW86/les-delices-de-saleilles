@@ -1,0 +1,16 @@
+/* simpleBanner.module.css */
+.banner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.bannerVideo {
+  aspect-ratio: 1 / 1; /* carré */
+  /* aspect-ratio: 2 / 3;  */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+

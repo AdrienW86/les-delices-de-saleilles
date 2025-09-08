@@ -6,7 +6,8 @@
 }
 
 .bannerImage {
-  aspect-ratio: 2 / 3; 
+  aspect-ratio: 1 / 1; /* carré */
+  /* aspect-ratio: 2 / 3;  */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

@@ -3,6 +3,7 @@
 import React, { useState } from 'react';
 import SimpleBanner from '../SimpleBanner/SimpleBanner';
 import SimpleBanner2 from '../SimpleBanner2/SimpleBanner2';
+import SimpleBannerVideo from '../SimpleBannerVideo/SimpleBannerVideo';
 import styles from "./equipment.module.css";
 
 export default function Equipment() {
@@ -41,7 +42,13 @@ export default function Equipment() {
           </div>
         </section>   
        <h2 className={styles.h1}> Evènement</h2>
-       <SimpleBanner2 url="/karaoke.png" /> 
+          <SimpleBannerVideo url="/happy_hour.mp4" />
+        <h2 className={styles.h1}>  🎵 Concert aux Délices de Saleilles ! 🎵</h2> 
+          <p className={styles.p2}> 
+            Samedi 18 octobre à partir de 20h, venez vibrer avec Dusty Shoes 🔥
+            Ambiance live, bonne musique et convivialité garanties 🎶✨
+          </p>   
+        <SimpleBanner2 url="/dusty.png" /> 
          <h2 className={styles.h1}> Nouveautés</h2>
        <SimpleBanner url="/nems-chocolat.png" /> 
         <SimpleBanner url="/sauce-piquante.png" /> 
@@ -53,12 +60,9 @@ export default function Equipment() {
             Laissez-vous surprendre par des saveurs authentiques et une cuisine généreuse, 
             concoctée avec passion par notre cheffe.
           </p>    
-          <h3 className={styles.h1}> Lundi - Mardi </h3>
-          <SimpleBanner url="couscous.png" />
-           <h3 className={styles.h1}> Mercredi - Jeudi </h3>
-          <SimpleBanner url="paella2.png" />
-          <h3 className={styles.h1}> Toute la semaine </h3>
-           <SimpleBanner url="/porc.png" />
+          
+         
+           
            <SimpleBanner url="/canard2.jpg" /> 
           <SimpleBanner url="/tartare.png" />      
         <h2 id="suggestion" className={styles.h1}> Suggestion du week-end</h2>
@@ -69,7 +73,7 @@ export default function Equipment() {
             découvrir de nouvelles saveurs et de partager un moment convivial autour d’une
             assiette généreuse.
           </p>
-        <SimpleBanner url="/thon.png" />
+       
     </section>
   );
 }
