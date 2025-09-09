@@ -5,10 +5,10 @@ import KaraokeCard from '../KaraokeCard/KaraokeCard'
 export default function Karaoke() {
   return (
     <section className={styles.container}>        
-      <h1 className={styles.title}> 🎤 Soirées Karaoké avec Michel et Eric – Ambiance garantie aux Délices de Saleilles ! 🎶 </h1>
+      <h1 className={styles.title}> 🎤 Soirées Karaoké aux Délices de Saleilles ! 🎶 </h1>
         <article className={styles.article}>
           Préparez-vous à vivre des soirées inoubliables aux Délices de Saleilles 
-          avec nos soirées karaoké animées par Michel et Eric ! Que vous soyez 
+          avec nos soirées karaoké ! Que vous soyez 
           chanteur amateur ou star en devenir, c’est l’occasion parfaite de monter 
           sur scène, micro en main, et de partager un moment convivial en famille 
           ou entre amis.

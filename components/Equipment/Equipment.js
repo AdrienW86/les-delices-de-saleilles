@@ -48,7 +48,7 @@ export default function Equipment() {
             Samedi 18 octobre à partir de 20h, venez vibrer avec Dusty Shoes 🔥
             Ambiance live, bonne musique et convivialité garanties 🎶✨
           </p>   
-        <SimpleBanner2 url="/dusty.png" /> 
+        <SimpleBanner url="/dusty.png" /> 
          <h2 className={styles.h1}> Nouveautés</h2>
        <SimpleBanner url="/nems-chocolat.png" /> 
         <SimpleBanner url="/sauce-piquante.png" /> 
@@ -59,12 +59,9 @@ export default function Equipment() {
             ingrédients frais, de saison et soigneusement sélectionnés. 
             Laissez-vous surprendre par des saveurs authentiques et une cuisine généreuse, 
             concoctée avec passion par notre cheffe.
-          </p>    
-          
-         
-           
-           <SimpleBanner url="/canard2.jpg" /> 
-          <SimpleBanner url="/tartare.png" />      
+          </p>              
+            <SimpleBanner url="/canard2.jpg" /> 
+            <SimpleBanner url="/tartare.png" />      
         <h2 id="suggestion" className={styles.h1}> Suggestion du week-end</h2>
           <p className={styles.p}> 
             Un week-end sous le signe de la gourmandise.
@@ -73,7 +70,7 @@ export default function Equipment() {
             découvrir de nouvelles saveurs et de partager un moment convivial autour d’une
             assiette généreuse.
           </p>
-       
+            <SimpleBanner url="/choucroute.png" />
     </section>
   );
 }
