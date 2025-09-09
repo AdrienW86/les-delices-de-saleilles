@@ -11,9 +11,6 @@ export default function SimpleBanner({ url }) {
           backgroundImage: `url(${url})`,
         }}
       />
-      <a href="tel:0650729588" className={styles.callButton}>
-        📞 Réserver au 06 50 72 95 88
-      </a> 
     </div>
   );
 }
