@@ -50,6 +50,7 @@ export default function Equipment() {
           </p>   
         <SimpleBanner url="/dusty.png" /> 
          <h2 className={styles.h1}> Nouveautés</h2>
+         <SimpleBanner url="/rou.png" /> 
        <SimpleBanner url="/nems-chocolat.png" /> 
         <SimpleBanner url="/sauce-piquante.png" /> 
         <h2 id="menu" className={styles.h1}> Suggestion de la semaine </h2>
