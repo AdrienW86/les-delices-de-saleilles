@@ -19,9 +19,8 @@ export default function CardMenu() {
       <div className={styles.menu}>
         <p className={styles.p3}> Menu Découverte <span className={styles.label}>  28.90€ </span></p>      
         <p className={styles.p4}> Entrée </p>
-          <p className={styles.p}> La Salade de thon composée </p>
-          <p className={styles.p2}> ou </p>
-          <p className={styles.p}> Le Croustillant de chèvre </p>
+          <p className={styles.p}> Salade de chèvre chaud au miel </p>
+          
           <p className={styles.p2}> ou </p>
           <p className={styles.p}> Les Samoussa au poulet </p>
         <p className={styles.p4}> Plat </p>
@@ -29,7 +28,7 @@ export default function CardMenu() {
           <p className={styles.p2}> ou </p>
           <p className={styles.p}> Les Gambas à la plancha</p>
           <p className={styles.p2}> ou </p>
-          <p className={styles.p}> Les Ravioles Royales ( 4 pièces Ravioles de porc et veau maison et 4 pièces Siomai crevettes  ) </p>
+          <p className={styles.p}> Rou jia mo </p>
         <p className={styles.p4}> Dessert </p>
             <p className={styles.p}> La Crème catalane </p>
           <p className={styles.p2}> ou </p>
