@@ -211,12 +211,12 @@ const menuData = {
     {
       name: "Burrata du chef",
       description: "Salade, tomate, jambon ibérique, fromage Burrata (sauce pesto maison, pignon de pain, amandes et basilic)",
-      price: 16,
+      price: 18,
     },
      {
       name: "Chèvre chaud au miel",
       description: "Fromage de chèvre, (sauce pesto maison), pignon de pain amandes ail et basilique.",
-      price: 16,
+      price: 18,
     },
     {
       name: "Salade melon, feta, jambon cru",
@@ -239,7 +239,7 @@ const menuData = {
     {
       name: "Melon au jambon cru",
       description: "",
-      price: 7,
+      price: 8,
     }, 
     {
       name: "Salade de chèvre chaud au miel",
@@ -288,11 +288,6 @@ const menuData = {
       description: "Fromage chaud fondant et coulant (munster ou maroilles) avec frites maison et salade",
       price: 23,
     },
-     {
-      name: "Tataki de boeuf",
-      description: "Boeuf saisi et mariné aux épices, frites et salade",
-      price: 18,
-    },
     {
       name: "Magret de canard entier",
       description: "Sauce de la cheffe au miel et à l'orange",
@@ -338,7 +333,7 @@ const menuData = {
     {
       name: "Fish and chips",
       description: "Filet de merlu, salade verte, tomate, oignon rouge",
-      price: 18,
+      price: 20,
     },
   ],
   platsChinois: [
