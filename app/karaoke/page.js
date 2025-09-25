@@ -8,7 +8,7 @@ export default function Page() {
   return (
     <main>
       <Header />
-      <SimpleBanner2 url="/karaoke.png" />
+      <SimpleBanner2 url="/karaoke2.png" />
       <Karaoke />
       <Footer />
     </main>

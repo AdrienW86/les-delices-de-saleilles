@@ -1,9 +1,9 @@
 const eventMenus = [ 
   
   {
-    date: 'Vendredi 19 septembre à 20h',
+    date: 'Vendredi 3 octobre à 20h',
     plats: [
-      { nom: "Brandade de morue ou Rou Jia avec riz cantonnais avec en dessert crème catalane ou tarte aux pommes", prix: "22€" },
+      { nom: "Filet mignon de porc sauce moutarde et purée de pomme de terre maison ou filet de merlu pané sauce à l'ail et persil avec ses légumes au four. Dessert au choix : purée de mangue et sa boule de glace vanille ou tarte aux pommes", prix: "22€" },
       
     ]
   },
