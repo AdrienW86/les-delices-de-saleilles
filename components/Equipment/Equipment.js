@@ -43,12 +43,11 @@ export default function Equipment() {
         </section>   
        <h2 className={styles.h1}> Evènement</h2>
           <SimpleBannerVideo url="/happy_hour.mp4" />
-        <h2 className={styles.h1}>  🎵 Concert aux Délices de Saleilles ! 🎵</h2> 
+        <h2 className={styles.h1}>  Ce week-end aux Délices de Saleilles</h2> 
           <p className={styles.p2}> 
-            Samedi 18 octobre à partir de 20h, venez vibrer avec Dusty Shoes 🔥
-            Ambiance live, bonne musique et convivialité garanties 🎶✨
+            Venez déguster ce week end notre cassoulet maison. A venir déguster sur place ou à emporter. Disponible du vendredi 26 septembre au dimanche 28 septembre.
           </p>   
-        <SimpleBanner url="/dusty.png" /> 
+         <SimpleBanner url="/cassoulet.png" />
          <h2 className={styles.h1}> Nouveautés</h2>
          <SimpleBanner url="/rou.png" /> 
        <SimpleBanner url="/nems-chocolat.png" /> 
