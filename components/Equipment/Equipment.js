@@ -42,6 +42,7 @@ export default function Equipment() {
           </div>
         </section>   
        <h2 className={styles.h1}> Evènement</h2>
+       <SimpleBanner url="/fondue.png" />
           <SimpleBannerVideo url="/happy_hour.mp4" />
         <h2 className={styles.h1}>  Ce week-end aux Délices de Saleilles</h2> 
           <p className={styles.p2}> 
