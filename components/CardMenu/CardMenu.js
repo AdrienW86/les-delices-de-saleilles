@@ -6,7 +6,7 @@ export default function CardMenu() {
     <section className={styles.section}>
       <h2 className={styles.title}>Les Menus</h2>
       <div className={styles.menu}>
-        <p className={styles.p3}> Fondue chinoise (sur réservation minimum 4 personnnes)<span className={styles.label}> 35€</span> </p>  
+        <p className={styles.p3}> Fondue chinoise (sur réservation 72h avant minimum 4 personnnes)<span className={styles.label}> 35€</span> </p>  
       </div>
        <div className={styles.menu}>
         <p className={styles.p3}> Menu "Petit loup" (enfant - 10 ans) <span className={styles.label}>  12€ </span></p>  
