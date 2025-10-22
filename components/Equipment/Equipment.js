@@ -46,11 +46,11 @@ export default function Equipment() {
           <SimpleBannerVideo url="/happy_hour.mp4" />
         <h2 className={styles.h1}>  Ce week-end aux Délices de Saleilles</h2> 
           <p className={styles.p2}> 
-            Venez déguster ce week end notre cassoulet maison. 
+            Venez déguster ce week end notre couscous maison. 
             A venir déguster sur place ou à emporter. 
-            Disponible du vendredi 10 octobre au dimanche 12 octobre. Sur place ou à emporter.
+            Disponible du vendredi 24 octobre au dimanche 26 octobre. Sur place ou à emporter.
           </p>   
-         <SimpleBanner url="/cassoulet.png" />
+         <SimpleBanner url="/couscous.png" />
          <h2 className={styles.h1}> Nouveautés</h2>
          <SimpleBanner url="/rou.png" /> 
        <SimpleBanner url="/nems-chocolat.png" /> 
@@ -72,7 +72,7 @@ export default function Equipment() {
             découvrir de nouvelles saveurs et de partager un moment convivial autour d’une
             assiette généreuse.
           </p>
-            <SimpleBanner url="/cassoulet.png" />
+            <SimpleBanner url="/couscous.png" />
     </section>
   );
 }
