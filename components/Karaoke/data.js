@@ -3,7 +3,7 @@ const eventMenus = [
   {
     date: 'Vendredi 7 novembre à 20h',
     plats: [
-      { nom: "Filet mignon de porc sauce moutarde et purée de pomme de terre maison ou filet de merlu pané sauce à l'ail et persil avec ses légumes au four. Dessert au choix : purée de mangue et sa boule de glace vanille ou tarte aux pommes", prix: "23€" },
+      { nom: "Plat au choix: Riz cantonais chinois et gambas ou coeur de rumsteak avec légumes au four. Dessert au choix : tiramisu au café ou crème catalane", prix: "23€" },
       
     ]
   },
