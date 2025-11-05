@@ -43,12 +43,24 @@ export default function Equipment() {
         </section>   
        <h2 className={styles.h1}> Evènement</h2>
        <SimpleBanner2 url="/karaoke3.png" />
+       <h2 className={styles.h1}> 
+            Découvrez nos menus de Noel 
+          </h2> 
+           <SimpleBanner2 url="/noel55.png" />
+             <p className={styles.p2}> 
+           Places limitées pensez à réserver rapidement !
+          </p>
+           <SimpleBanner2 url="/noel70.png" />
+           <p className={styles.p2}> 
+           Réservations avant le 02/12/2025
+          </p>
+           <h2 className={styles.h1}> Nouveau </h2>
           <SimpleBannerVideo url="/happy_hour.mp4" />
         <h2 className={styles.h1}>  Ce week-end aux Délices de Saleilles</h2> 
           <p className={styles.p2}> 
             Venez déguster ce week end notre couscous maison. 
             A venir déguster sur place ou à emporter. 
-            Disponible du vendredi 24 octobre au dimanche 26 octobre. Sur place ou à emporter.
+            Disponible du vendredi 7 novembre au dimanche 9 novembre. Sur place ou à emporter.
           </p>   
          <SimpleBanner url="/choucroute.png" />
          <h2 className={styles.h1}> Nouveautés</h2>
