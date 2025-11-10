@@ -42,7 +42,7 @@ export default function Equipment() {
           </div>
         </section>   
        <h2 className={styles.h1}> Evènement</h2>
-       <SimpleBanner2 url="/karaoke3.png" />
+       <SimpleBanner2 url="/menu11.png" />
        <h2 className={styles.h1}> 
             Découvrez nos menus de Noel 
           </h2> 
