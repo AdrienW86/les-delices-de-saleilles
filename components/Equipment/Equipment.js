@@ -41,8 +41,7 @@ export default function Equipment() {
             </button>
           </div>
         </section>   
-       <h2 className={styles.h1}> Evènement</h2>
-       <SimpleBanner2 url="/menu11.png" />
+      
        <h2 className={styles.h1}> 
             Découvrez nos menus de Noel 
           </h2> 
@@ -55,15 +54,14 @@ export default function Equipment() {
            Réservations avant le 02/12/2025
           </p>
            <h2 className={styles.h1}> Nouveau </h2>
+           <SimpleBanner url="/cantonnais.png" />
           <SimpleBannerVideo url="/happy_hour.mp4" />
-        <h2 className={styles.h1}>  Ce week-end aux Délices de Saleilles</h2> 
+        {/* <h2 className={styles.h1}>  Ce week-end aux Délices de Saleilles</h2> 
           <p className={styles.p2}> 
-            Venez déguster ce week end notre couscous maison. 
-            A venir déguster sur place ou à emporter. 
-            Disponible du vendredi 7 novembre au dimanche 9 novembre. Sur place ou à emporter.
+           
           </p>   
-         <SimpleBanner url="/choucroute.png" />
-         <h2 className={styles.h1}> Nouveautés</h2>
+         <SimpleBanner url="/choucroute.png" /> */}
+        
          <SimpleBanner url="/rou.png" /> 
        <SimpleBanner url="/nems-chocolat.png" /> 
         <SimpleBanner url="/sauce-piquante.png" /> 
@@ -84,7 +82,7 @@ export default function Equipment() {
             découvrir de nouvelles saveurs et de partager un moment convivial autour d’une
             assiette généreuse.
           </p>
-            <SimpleBanner url="/choucroute.png" />
+          
     </section>
   );
 }
