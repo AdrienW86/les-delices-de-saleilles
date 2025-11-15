@@ -1,9 +1,9 @@
 const eventMenus = [ 
   
   {
-    date: 'Vendredi 7 novembre à 20h',
+    date: 'Vendredi 12 décembre à 20h',
     plats: [
-      { nom: "Plat au choix: Riz cantonais chinois et gambas ou coeur de rumsteak avec légumes au four. Dessert au choix : tiramisu au café ou crème catalane", prix: "23€" },
+      { nom: "Plat au choix: à venir. Dessert au choix : à venir", prix: "23€" },
       
     ]
   },
