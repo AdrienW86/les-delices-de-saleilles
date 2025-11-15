@@ -82,7 +82,7 @@ export default function Equipment() {
             découvrir de nouvelles saveurs et de partager un moment convivial autour d’une
             assiette généreuse.
           </p>
-          
+          <SimpleBanner url="/fraginat.png" />
     </section>
   );
 }
