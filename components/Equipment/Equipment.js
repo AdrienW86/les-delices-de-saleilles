@@ -40,8 +40,11 @@ export default function Equipment() {
               {isVisible ? 'Voir moins' : 'Voir plus'}
             </button>
           </div>
-        </section>   
-      
+        </section> 
+          <h2 className={styles.h1}> 
+            Prochainement
+          </h2> 
+       <SimpleBanner url="/karaoke2.png" />
        <h2 className={styles.h1}> 
             Découvrez nos menus de Noel 
           </h2> 
