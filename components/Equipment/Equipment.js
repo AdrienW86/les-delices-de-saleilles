@@ -54,7 +54,11 @@ export default function Equipment() {
           </p>
            <SimpleBanner2 url="/noel70.png" />
            <p className={styles.p2}> 
-           Réservations avant le 02/12/2025
+           Réservations avant le 20/12/2025
+          </p>
+           <SimpleBanner2 url="/nouvel-an.png" />
+          <p className={styles.p2}> 
+           Réservations avant le 20/12/2025
           </p>
            <h2 className={styles.h1}> Nouveau </h2>
            <SimpleBanner url="/cantonnais.png" />
