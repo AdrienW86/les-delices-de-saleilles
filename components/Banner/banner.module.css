@@ -71,6 +71,17 @@
     background-color: rgb(78,68,58);  
 }
 
+.warning {
+    z-index :10;
+    position: absolute;
+    top: 200px;
+    background-color: #232847;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    font-size: 2rem;
+}
+
 .callButton {
     position: absolute;
     top: 50px;

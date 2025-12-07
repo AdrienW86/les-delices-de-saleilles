@@ -41,6 +41,9 @@ export default function Carousel() {
        <a href="tel:0650729588" className={styles.callButton}>
         📞 Réserver au 06 50 72 95 88
       </a>
+      <div className={styles.warning}>
+        <p> Fermeture exceptionnel le lundi 8 décembre et le mardi 9 décembre</p>
+      </div>
         <div className={styles.btnContainer}>
             <motion.a 
               className={styles.btn} 
