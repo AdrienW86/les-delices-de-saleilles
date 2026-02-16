@@ -45,21 +45,8 @@ export default function Equipment() {
             Prochainement
           </h2> 
        <SimpleBanner url="/karaoke2.png" />
-       <h2 className={styles.h1}> 
-            Découvrez nos menus de Noel 
-          </h2> 
-           <SimpleBanner2 url="/noel55.png" />
-             <p className={styles.p2}> 
-           Places limitées pensez à réserver rapidement !
-          </p>
-           <SimpleBanner2 url="/noel70.png" />
-           <p className={styles.p2}> 
-           Réservations avant le 20/12/2025
-          </p>
-           <SimpleBanner2 url="/nouvel-an.png" />
-          <p className={styles.p2}> 
-           Réservations avant le 20/12/2025
-          </p>
+       
+          
            <h2 className={styles.h1}> Nouveau </h2>
            <SimpleBanner url="/cantonnais.png" />
           <SimpleBannerVideo url="/happy_hour.mp4" />
