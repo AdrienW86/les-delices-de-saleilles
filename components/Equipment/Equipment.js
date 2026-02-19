@@ -44,7 +44,7 @@ export default function Equipment() {
           <h2 className={styles.h1}> 
             Prochainement
           </h2> 
-       <SimpleBanner url="/karaoke2.png" />
+       <SimpleBanner url="/delice.jpg" />
        
           
            <h2 className={styles.h1}> Nouveau </h2>

@@ -18,8 +18,8 @@ export default function Karaoke() {
           <p className={styles.p}> 🎧 Un DJ passionné pour mettre le feu à la soirée </p>       
           <p className={styles.p}> 🎤 Un large choix de chansons pour tous les goûts </p>   
           <p className={styles.p}> 🍽️ Un bon repas à savourer dans une atmosphère détendue </p>                  
-        <h2 className={styles.h3}> Les prochaines dates de nos soirées karaoké </h2> 
-       <KaraokeCard />
+        {/* <h2 className={styles.h3}> Les prochaines dates de nos soirées karaoké </h2> 
+       <KaraokeCard /> */}
         
     </section>
   )
