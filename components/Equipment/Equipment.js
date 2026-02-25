@@ -48,7 +48,10 @@ export default function Equipment() {
        
           
            <h2 className={styles.h1}> Nouveau </h2>
-           <SimpleBanner url="/cantonnais.png" />
+           <SimpleBanner url="/buffet.jpg" />
+           <p className={styles.p}> 
+            Entrée à volonté en buffet et un plat au choix ( 2 propositions ) + un dessert prix : 19,80€
+          </p>  
           <SimpleBannerVideo url="/happy_hour.mp4" />
         {/* <h2 className={styles.h1}>  Ce week-end aux Délices de Saleilles</h2> 
           <p className={styles.p2}> 
