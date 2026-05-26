@@ -1,15 +1,25 @@
 "use client";
 
 import React, { useState } from 'react';
-import { useForm } from 'react-hook-form';
+import { useForm, SubmitHandler } from 'react-hook-form';
+
+// Définition de la structure des données du formulaire
+interface ContactFormData {
+  name: string;
+  email: string;
+  subject: string;
+  message: string;
+}
 
 export default function Form() {
   const [isLoading, setIsLoading] = useState(false);
   const [isSended, setIsSended] = useState(false);
  
-  const { register, handleSubmit, reset, formState: { errors } } = useForm();
+  // Passage du type générique à useForm
+  const { register, handleSubmit, reset, formState: { errors } } = useForm<ContactFormData>();
 
-  const onSubmit = async (data) => {
+  // Typage correct de la fonction onSubmit avec SubmitHandler
+  const onSubmit: SubmitHandler<ContactFormData> = async (data) => {
     if (!isLoading) {
       setIsLoading(true);
       const response = await fetch("/api/contact", {
