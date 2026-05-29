@@ -1,9 +1,9 @@
 const eventMenus = [ 
   
   {
-    date: 'Vendredi 4 janvier à partir de midi',
+    date: 'Vendredi 12 juin à partir de 19H',
     plats: [
-      { nom: "Plat au choix: Bouchée aux fruits de mer avec purée de brocolis ou Paleron de boeuf mijoté avec son riz. Dessert au choix : Galette des rois avec célébration de la reine et du roi.", prix: "23€" },
+      { nom: "Plat au choix: Poulet à la cantonnaise et salade ou Rognons de veau sauce moutarde et frites. Dessert au choix : Panna cotta aux fruits rouges ou Flan à la banane fait maison", prix: "23€" },
       
     ]
   },

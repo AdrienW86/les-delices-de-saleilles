@@ -51,7 +51,7 @@ export default function Equipment() {
             <span>🎉</span> Prochainement au restaurant
           </h2>
           <div className="rounded-2xl overflow-hidden shadow-md">
-            <SimpleBanner url="/karaoke12.jpg" />
+            <SimpleBanner url="/mother.png" />
           </div>
         </div>
 
