@@ -28,7 +28,7 @@ export default function CartePage() {
   // Données locales du menu découverte
   const menuDecouverteData = {
     title: "Menu Découverte",
-    price: 24.90, // Modifie le prix ici si nécessaire
+    price: 30, // Modifie le prix ici si nécessaire
     description: "Le parfait équilibre entre fraîcheur, tradition et évasion culinaire.",
     sections: [
       {
