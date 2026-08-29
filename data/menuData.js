@@ -1,4 +1,5 @@
 const menuData = {
+  // Section boissons conservée sans modification
   boissons: {
     nonAlcoolisees: [
       {
@@ -133,7 +134,7 @@ const menuData = {
         name: "Duvel 33cl",
         price: 8,
       },
-       {
+      {
         name: "Démon 33cl",
         price: 8,
       },
@@ -145,7 +146,7 @@ const menuData = {
         name: "Chouffe 75cl",
         price: 16,
       },
-       {
+      {
         name: "Kasteel 75cl",
         price: 17,
       },
@@ -157,7 +158,6 @@ const menuData = {
         name: "Paix Dieu 75cl",
         price: 18,
       },
-
     ],
     vin: [
       {
@@ -176,7 +176,7 @@ const menuData = {
         name: "Rouge / rosé 25cl (cubi)",
         price: 6,
       },
-       {
+      {
         name: "Rouge / rosé 50cl (cubi)",
         price: 9,
       },
@@ -202,163 +202,214 @@ const menuData = {
       },
     ],
   },
-    salades: [ 
-      {
+
+  // --- NOUVEAUX ÉLÉMENTS DE LA CARTE & MENUS (Issus des photos) ---
+
+  entrees: [
+    {
+      name: "Chèvre chaud au miel",
+      description: "Fromage de chèvre, (sauce pesto maison), pignon de pain amandes ail et basilique",
+      price: 10,
+    },
+    {
+      name: "Salade melon, féta, jambon cru",
+      description: "Salade verte, melon, fromage fêta, (jambon cru 24 moi)",
+      price: 10,
+    },
+    {
+      name: "Nems de la cheffe (maison)",
+      description: "Avec accompagnement de salade verte, tomates, oignons",
+      price: 10,
+    },
+    {
+      name: "Samoussa aux poulet",
+      description: "Salade verte, tomates, oignons",
+      price: 10,
+    },
+  ],
+
+  salades: [
+    {
       name: "Nems du chef (maison)",
-      description: "Avec accompagnement salade verte, tomates, oignons",
+      description: "Avec accompagnement de salade verte, tomates, oignons",
       price: 18,
     },
     {
-      name: "Samoussa au poulet",
-      description: "Salade verte, tomates, oignons",
+      name: "Samoussa aux poulet",
+      description: "Avec accompagnement de salade verte, tomates, oignons",
       price: 18,
     },
     {
       name: "Chèvre chaud au miel",
-      description: "Fromage de chèvre, (sauce pesto maison), pignon de pain amandes ail et basilique.",
+      description: "Salade verte, tomates, oignons",
       price: 18,
     },
     {
-      name: "Salade melon, feta, jambon cru",
-      description: "Salade verte, melon, fromage fêta, jambon cru (24 mois)",
+      name: "Salade melon, féta, jambon cru",
+      description: "Salade verte, melon, fromage fêta, (jambon cru 24 mol)",
       price: 18,
     },
-  ],
-
-  entrees: [ 
-     {
-      name: "Petite assiette de charcuterie",
-      description: "",
-      price: 7,
-    },  
-     {
-      name: "Samoussa au boeuf",
-      description: "",
-      price: 7,
-    },
-    {
-      name: "Melon au jambon cru",
-      description: "",
-      price: 8,
-    }, 
-    {
-      name: "Salade de chèvre chaud au miel",
-      description: "Crottin de Chavignol, salade, tomate, oignons, miel et toasts",
-      price: 7,
-    },
-    
   ],
 
   viandes: [
-     {
-      name: "Le délice de Saleilles (nouveauté)",
-      description: "Fromage chaud fondant et coulant (munster ou maroilles) avec frites maison et salade",
-      price: 23,
+    {
+      name: "Brochette de bœuf",
+      description: "Servi avec légumes ou frites faites maison",
+      price: 20,
+    },
+    {
+      name: "Pièce de bœuf",
+      description: "Servi avec légumes ou frites faites maison",
+      price: 22,
     },
     {
       name: "Magret de canard entier",
-      description: "Sauce de la cheffe au miel et à l'orange",
+      description: "Servi avec légumes ou frites faites maison",
       price: 26,
     },
     {
-      name: "Faux filet de boeuf",
-      description: "Avec frites et salade",
-      price: 25,
+      name: "Brochettes magret de canard (pour 2 personnes)",
+      description: "Servi avec légumes ou frites faites maison",
+      price: 36,
     },
-    {
-      name: "Tartare de boeuf revisité(persillé Angus)",
-      description: "Fait au couteau (spécialité de la cheffe) mangue, boeuf, échalotes, herbes aromatiques, soja, sauce huître",
-      price: 26,
-    },
-    {
-      name: "Pièce du boucher",
-      description: "Pièce de boeuf du moment",
-      price: 20,
-    },
-    
   ],
-  mer: [
+
+  poissons: [
     {
-      name: "Filet de merlu",
-      description: "Sauce à l'ail, persil, frites salade ou légumes",
+      name: "Poisson du jour sauce à l'ail et persil",
+      description: "Servi avec légumes ou frites faites maison",
       price: 18,
     },
     {
-      name: "Filet de merlu pané",
-      description: "Frites et salade ou légumes",
-      price: 18,
+      name: "Steak de thon rouge sauce ail et persil",
+      description: "Servi avec légumes ou frites faites maison",
+      price: 22,
     },
     {
-      name: "Steak de thon rouge",
-      description: "Sauce ail et persil, frites salade ou légumes",
+      name: "Gambas sauce ail et persil",
+      description: "Servi avec légumes ou frites faites maison",
       price: 22,
     },
   ],
-  platsChinois: [
+
+  nosPlatsChinois: [
     {
-      name: "Nems du chef",
-      description: "Avec salade verte, tomates et oignons rouges. 3 pièces ou 5 pièces.",
-      price: 18,
-    },
-    {
-      name: "Samoussa au poulet",
-      description: "Salade verte, tomates oignons rouges. 4 pièces ou 6 pièces.",
-      price: 18,
-    },    
-    {
-      name: "Rou jia mo",
-      description: "Poitrine porc (3h de cuisson) avec frites maison.",
-      price: 20
-    },
-    {
-      name: "Nouilles de riz sautées au boeuf",
+      name: "Sauté de bœuf et tiges d'ail",
       description: "",
       price: 23,
-    },    
+    },
+    {
+      name: "Nouilles de riz au bœuf",
+      description: "",
+      price: 23,
+    },
     {
       name: "Ravioles maison (12 pièces)",
-      description: "Porc et boeuf",
+      description: "Au porc",
       price: 23,
     },
     {
-        name:"Porc caramel",
-        description:" Poitrine de porc (3h de cuisson)",
-        price: 22,
-    },
-    {
-      name: "Cuisses de grenouilles sauce soja",
-      description: "",
-      price: 25,
+      name: "Sauté de bœuf",
+      description: "Légumes, soja, nouilles de riz",
+      price: 23,
     },
   ],
+
   desserts: [
     {
-      name: "Crème catalane",
-      price: 6,
-    },
-    {
       name: "Baba au rhum",
+      description: "",
       price: 8,
     },
     {
       name: "Fondant au chocolat",
-      description: "Glace vanille, caramel et chantilly maison",
+      description: "Glace vanille, caramel, chantilly faite maison",
+      price: 10,
+    },
+    {
+      name: "Nems à la banane et chocolat",
+      description: "",
+      price: 10,
+    },
+    {
+      name: "Création de la cheffe",
+      description: "Glace des Alpes chocolat, chantilly faite maison",
       price: 10,
     },
     {
       name: "Carpaccio d'ananas",
-      description: "Ananas, glace vanille, caramel et chantilly maison",
+      description: "Glace vanille, ananas, caramel, chantilly faite maison",
       price: 10,
     },
     {
-      name: "Nems banane et chocolat",
-      description: "Nems chocolat et banane, glace citron vert artisanale et chantilly maison",
-      price: 10,
+      name: "Glace des Alpes",
+      description: "Parfums: Vanille de Madagascar, Caramel, Fraise, Menthe, Violette, Café, Framboise, Mandarine, Citron vert, Noix de coco, Cassis, Fruit de la Passion, Chocolat, Pistache, Rhum Raisin au rhum des Antilles françaises",
+      prices: {
+        uneBoule: 3.00,
+        deuxBoules: 6.00,
+        supplementChantilly: 2.00,
+      },
+    },
+  ],
+
+  menusEtFormules: [
+    {
+      name: "Fondue chinoise",
+      price: 38,
+      details: "Uniquement sur réservation (3 jours avant). Le midi ou le soir (minimum 4 personnes).",
     },
     {
-      name: "Glace des Alpes (supplément chantilly 2€)",
-      description: "Nos différents parfum: vanille de madagascar, caramel, fraise, menthe, violette,café, framboise, mandarine, citron vert, noix de coco, fruit de la passion, chocolat, pistache, rhum raison au rhum des antilles française",
-      price: 3,
+      name: "Menus chinois A (pour 2 personnes)",
+      price: 50,
+      entrees: "4 Samoussa aux poulets et salades",
+      plats: "Cuisses de grenouilles et poitrine de porc (3h cuisson) accompagnement légumes, soja, tofu, nouilles de riz",
+    },
+    {
+      name: "Planche complète (pour 2 personnes)",
+      price: 60,
+      composition: [
+        "2 Samoussa aux poulets",
+        "2 Nems maison",
+        "2 chèvre chaud au miel",
+        "8 Ravioles maison",
+        "4 gambas",
+        "Jambon Serrano et frites maison salades",
+      ],
+    },
+    {
+      name: "Assiette complète",
+      price: 28,
+      composition: [
+        "2 samoussa",
+        "1 Nems",
+        "2 Gambas",
+        "1 Chèvre chaud au miel",
+        "Jambon Serrano et frites maison salades",
+      ],
+    },
+    {
+      name: "Menu « Petit loup » (enfant - 10 ans)",
+      price: 12,
+      composition: "Aiguillettes de poulet ou steak haché de bœuf frites + 1 boule de glace",
+    },
+    {
+      name: "Menu Découverte",
+      price: 30,
+      entrees: [
+        "Salade de Chèvre chaud au miel",
+        "Jambon Serrano et melon",
+        "Samoussa aux poulet",
+      ],
+      plats: [
+        "Brochette de bœuf",
+        "Gambas à l'ail et persil",
+        "Rou jia mo (poitrine de porc 3h cuisson avec frites faites maison)",
+      ],
+      desserts: [
+        "Glace à la vanille",
+        "Le Dessert du jour",
+      ],
+      accompagnement: "Frites fraîches Maison Ou légumes de saison",
     },
   ],
 };
